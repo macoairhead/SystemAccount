@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: test.java.S1CreateStories
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.743 sec <<< FAILURE! - in test.java.S1CreateStories
+test.java.S1CreateStories  Time elapsed: 0.742 sec  <<< ERROR!
+java.lang.RuntimeException: java.lang.NoSuchMethodError: org.junit.runner.Description.getMethodName()Ljava/lang/String;
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.beforeStory(JUnitScenarioReporter.java:93)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.beforeStory(DelegatingStoryReporter.java:67)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.beforeStory(ConcurrentStoryReporter.java:110)
+	at org.jbehave.core.embedder.StoryRunner.runBeforeOrAfterStories(StoryRunner.java:71)
+	at org.jbehave.core.embedder.StoryManager.runBeforeOrAfterStories(StoryManager.java:91)
+	at org.jbehave.core.embedder.StoryManager.runStories(StoryManager.java:75)
+	at org.jbehave.core.embedder.Embedder.runStoriesAsPaths(Embedder.java:203)
+	at de.codecentric.jbehave.junit.monitoring.JUnitReportingRunner.run(JUnitReportingRunner.java:78)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+

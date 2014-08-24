@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>test.resources.Create</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="test/resources/Create.story" title="">
+<scenario keyword="Scenario:" title="001:  &#31038;&#20869;&#12450;&#12459;&#12454;&#12531;&#12488;&#12395;&#19968;&#20214;&#36861;&#21152;&#12375;&#12414;&#12377;">
+<step outcome="successful">Given &#31354;&#12398;&#31038;&#21729;&#12434;&#20316;&#25104;&#12375;&#12414;&#12377;</step>
+<step outcome="successful">When &#12501;&#12521;&#12531;&#12473;&#12363;&#12425;&#12398;&#26032;&#20837;&#31038;&#21729;&#12434;&#36861;&#21152;&#12375;&#12414;&#12377;
+<parameter><parameters>
+<names><name>UserID</name><name>UnitID</name><name>UserNameFirst</name><name>UserNameLast</name></names>
+<values><value>1005</value><value>200</value><value>&amp;#12463;&amp;#12525;&amp;#12456;</value><value>&amp;#12523;&amp;#12513;&amp;#12540;&amp;#12523;</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">Then &#20197;&#19979;&#12398;&#31038;&#21729;&#12364;&#36861;&#21152;&#12373;&#12428;&#12390;&#12356;&#12427;&#12371;&#12392;
+<parameter><parameters>
+<names><name>UserID</name><name>UnitID</name><name>UserNameFirst</name><name>UserNameLast</name></names>
+<values><value>1005</value><value>200</value><value>&amp;#12463;&amp;#12525;&amp;#12456;</value><value>&amp;#12523;&amp;#12513;&amp;#12540;&amp;#12523;</value></values>
+</parameters>
+</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="002:  &#37096;&#32626;&#12434;&#19968;&#20214;&#36861;&#21152;&#12375;&#12414;&#12377;">
+<step outcome="successful">Given &#26032;&#12375;&#12356;&#37096;&#32626;&#12434;&#20316;&#25104;&#12375;&#12414;&#12377;</step>
+<step outcome="successful">When &#20154;&#20107;&#37096;&#12434;&#36861;&#21152;&#12375;&#12414;&#12377;
+<parameter><parameters>
+<names><name>UnitID</name><name>UnitName</name></names>
+<values><value>400</value><value>&amp;#20154;&amp;#20107;&amp;#37096;</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">Then &#20197;&#19979;&#12398;&#37096;&#32626;&#12364;&#36861;&#21152;&#12373;&#12428;&#12390;&#12356;&#12427;&#12371;&#12392;
+<parameter><parameters>
+<names><name>UnitID</name><name>UnitName</name></names>
+<values><value>400</value><value>&amp;#20154;&amp;#20107;&amp;#37096;</value></values>
+</parameters>
+</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="003: &#31649;&#29702;&#12471;&#12473;&#12486;&#12512;&#12434;&#19968;&#20214;&#36861;&#21152;&#12375;&#12414;&#12377;">
+<step outcome="successful">Given &#26032;&#12375;&#12356;&#31649;&#29702;&#12471;&#12473;&#12486;&#12512;&#12434;&#20316;&#25104;&#12375;&#12414;&#12377;</step>
+<step outcome="successful">When &#32102;&#19982;&#12471;&#12473;&#12486;&#12512;&#12434;&#20316;&#25104;&#12375;&#12414;&#12377;
+<parameter><parameters>
+<names><name>ManagementSystemID</name><name>ManagementSystemName</name></names>
+<values><value>1000</value><value>&amp;#32102;&amp;#26009;&amp;#22857;&amp;#34892;</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">Then &#20197;&#19979;&#12398;&#31649;&#29702;&#12471;&#12473;&#12486;&#12512;&#12364;&#36861;&#21152;&#12373;&#12428;&#12390;&#12356;&#12427;&#12371;&#12392;
+<parameter><parameters>
+<names><name>ManagementSystemID</name><name>ManagementSystemName</name></names>
+<values><value>1000</value><value>&amp;#32102;&amp;#26009;&amp;#22857;&amp;#34892;</value></values>
+</parameters>
+</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="004: &#27177;&#38480;&#12434;&#19968;&#20214;&#36861;&#21152;&#12375;&#12414;&#12377;">
+<step outcome="successful">Given &#26032;&#12375;&#12356;&#27177;&#38480;&#12434;&#20316;&#25104;&#12375;&#12414;&#12377;</step>
+<step outcome="successful">When &#12471;&#12473;&#12486;&#12512;&#31649;&#29702;&#32773;&#27177;&#38480;&#12434;&#20316;&#25104;&#12375;&#12414;&#12377;
+<parameter><parameters>
+<names><name>ManagementSystemID</name><name>PermissionID</name><name>PermissionName</name></names>
+<values><value>2000</value><value>101</value><value>&amp;#12471;&amp;#12473;&amp;#12486;&amp;#12512;&amp;#31649;&amp;#29702;&amp;#32773;</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">Then &#20197;&#19979;&#12398;&#27177;&#38480;&#12364;&#36861;&#21152;&#12373;&#12428;&#12390;&#12356;&#12427;&#12371;&#12392;
+<parameter><parameters>
+<names><name>ManagementSystemID</name><name>PermissionID</name><name>PermissionName</name></names>
+<values><value>2000</value><value>101</value><value>&amp;#12471;&amp;#12473;&amp;#12486;&amp;#12512;&amp;#31649;&amp;#29702;&amp;#32773;</value></values>
+</parameters>
+</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="005: &#27177;&#38480;&#12434;&#20184;&#19982;&#12375;&#12414;&#12377;">
+<step outcome="successful">Given &#26032;&#12375;&#12356;&#27177;&#38480;&#12434;&#20184;&#19982;&#12375;&#12414;&#12377;</step>
+<step outcome="successful">When &#20197;&#19979;&#12398;&#12471;&#12473;&#12486;&#12512;&#12450;&#12459;&#12454;&#12531;&#12488;&#12395;&#26032;&#12375;&#12356;&#27177;&#38480;&#12434;&#20184;&#19982;&#12375;&#12414;&#12377;
+<parameter><parameters>
+<names><name>UserID</name><name>LoginID</name><name>ManagementSystemID</name><name>PermissionID</name></names>
+<values><value>1000</value><value>m-tomoe</value><value>2000</value><value>101</value></values>
+</parameters>
+</parameter></step>
+<step outcome="successful">Then &#20197;&#19979;&#12398;&#27177;&#38480;&#12364;&#20184;&#19982;&#12373;&#12428;&#12390;&#12356;&#12427;&#12371;&#12392;
+<parameter><parameters>
+<names><name>UserID</name><name>LoginID</name><name>ManagementSystemID</name><name>PermissionID</name></names>
+<values><value>1000</value><value>m-tomoe</value><value>2000</value><value>101</value></values>
+</parameters>
+</parameter></step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

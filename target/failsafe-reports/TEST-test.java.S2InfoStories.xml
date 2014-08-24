@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.S2InfoStories" time="0.065" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\java\jdk1.7.0_40\jre\bin"/>
+    <property name="java.vm.version" value="24.0-b56"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\git\gitrepo\SystemAccount"/>
+    <property name="java.runtime.version" value="1.7.0_40-b43"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\java\jdk1.7.0_40\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\maco\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\git\gitrepo\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4825417201930897996.tmp"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.library.path" value="D:\java\jdk1.7.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/pleiades/eclipse/jre/bin/server;D:/pleiades/eclipse/jre/bin;D:/pleiades/eclipse/jre/lib/amd64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\maven\apache-maven-3\bin;D:\pleiades\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\maco"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="maco"/>
+    <property name="java.class.path" value="D:\maven\apache-maven-3\boot\plexus-classworlds-2.4.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\java\jdk1.7.0_40\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -B -X -e verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ja"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_40"/>
+    <property name="java.ext.dirs" value="D:\java\jdk1.7.0_40\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\java\jdk1.7.0_40\jre\lib\resources.jar;D:\java\jdk1.7.0_40\jre\lib\rt.jar;D:\java\jdk1.7.0_40\jre\lib\sunrsasign.jar;D:\java\jdk1.7.0_40\jre\lib\jsse.jar;D:\java\jdk1.7.0_40\jre\lib\jce.jar;D:\java\jdk1.7.0_40\jre\lib\charsets.jar;D:\java\jdk1.7.0_40\jre\lib\jfr.jar;D:\java\jdk1.7.0_40\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\maven\apache-maven-3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="D:\maven\apache-maven-3\boot\plexus-classworlds-2.4.2.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test.java.S2InfoStories" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="0.065">
+    <error message="java.lang.NoSuchMethodError: org.junit.runner.Description.getMethodName()Ljava/lang/String;" type="java.lang.RuntimeException">java.lang.RuntimeException: java.lang.NoSuchMethodError: org.junit.runner.Description.getMethodName()Ljava/lang/String;
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.beforeStory(JUnitScenarioReporter.java:93)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.beforeStory(DelegatingStoryReporter.java:67)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.beforeStory(ConcurrentStoryReporter.java:110)
+	at org.jbehave.core.embedder.StoryRunner.runBeforeOrAfterStories(StoryRunner.java:71)
+	at org.jbehave.core.embedder.StoryManager.runBeforeOrAfterStories(StoryManager.java:91)
+	at org.jbehave.core.embedder.StoryManager.runStories(StoryManager.java:75)
+	at org.jbehave.core.embedder.Embedder.runStoriesAsPaths(Embedder.java:203)
+	at de.codecentric.jbehave.junit.monitoring.JUnitReportingRunner.run(JUnitReportingRunner.java:78)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+</error>
+    <system-out><![CDATA[Processing system properties {}
+Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=true,ignoreFailureInView=true,verboseFailures=false,verboseFiltering=false,storyTimeoutInSecs=60,threads=1]
+
+(BeforeStories)
+Generating reports view to 'D:\git\gitrepo\SystemAccount\WEB-INF\jbehave' using formats '[stats, console, txt, html, xml, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
+Reports view generated with 0 stories (of which 0 pending) containing 0 scenarios (of which 0 pending)
+]]></system-out>
+  </testcase>
+</testsuite>

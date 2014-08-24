@@ -1,0 +1,233 @@
+<xref>
+  <whenMade>1408889863571</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter></metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative></narrative>
+      <name>Delete.story</name>
+      <path>test/resources/Delete.story</path>
+      <html>test.resources.Delete.html</html>
+      <meta></meta>
+      <scenarios>Scenario:001: 社内アカウントを削除します
+Given ユーザを削除します
+When ユーザID 1005 を削除します
+Then ユーザID 1005 が存在しないこと
+
+
+Scenario:002: 部署を削除します
+Given 部署を削除します
+When 部署ID 400 を削除します
+Then 部署ID 400 が存在しないこと
+
+
+Scenario:003: 管理システムを削除します
+Given 管理システムを削除します
+When 管理システムID 1000 を削除します
+Then 管理システムID 1000 が存在しないこと
+
+
+Scenario:004: 権限を削除します
+Given 権限を削除します
+When 管理システムID、権限ID 2000 101 を削除します
+Then 管理システムID、権限ID 2000 101 が存在しないこと
+
+
+Scenario:005: 保有権限を削除します
+Given 保有権限を削除します
+When システムアカウントID、管理システムID、権限ID m-tomoe 2000 1 の権限を削除します
+Then システムアカウントID、管理システムID、権限ID m-tomoe 2000 1 が存在しないこと
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1408889849122</started>
+      <duration>14116</duration>
+    </story>
+  </stories>
+  <stepMatches>
+    <stepMatch>
+      <type>THEN</type>
+      <annotatedPattern>管理システムID、権限ID $MngSysID $PermID が存在しないこと</annotatedPattern>
+      <resolvedPattern>管理システムID、権限ID\s+(.*)\s+(.*)\s+が存在しないこと</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>004: 権限を削除します</scenario>
+          <step>Then 管理システムID、権限ID 2000 101 が存在しないこと</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>WHEN</type>
+      <annotatedPattern>管理システムID $ManagementSystemID を削除します</annotatedPattern>
+      <resolvedPattern>管理システムID\s+(.*)\s+を削除します</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>003: 管理システムを削除します</scenario>
+          <step>When 管理システムID 1000 を削除します</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>THEN</type>
+      <annotatedPattern>ユーザID $UserID が存在しないこと</annotatedPattern>
+      <resolvedPattern>ユーザID\s+(.*)\s+が存在しないこと</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>001: 社内アカウントを削除します</scenario>
+          <step>Then ユーザID 1005 が存在しないこと</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>GIVEN</type>
+      <annotatedPattern>管理システムを削除します</annotatedPattern>
+      <resolvedPattern>管理システムを削除します</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>003: 管理システムを削除します</scenario>
+          <step>Given 管理システムを削除します</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>GIVEN</type>
+      <annotatedPattern>ユーザを削除します</annotatedPattern>
+      <resolvedPattern>ユーザを削除します</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>001: 社内アカウントを削除します</scenario>
+          <step>Given ユーザを削除します</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>WHEN</type>
+      <annotatedPattern>ユーザID $UserID を削除します</annotatedPattern>
+      <resolvedPattern>ユーザID\s+(.*)\s+を削除します</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>001: 社内アカウントを削除します</scenario>
+          <step>When ユーザID 1005 を削除します</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>GIVEN</type>
+      <annotatedPattern>部署を削除します</annotatedPattern>
+      <resolvedPattern>部署を削除します</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>002: 部署を削除します</scenario>
+          <step>Given 部署を削除します</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>THEN</type>
+      <annotatedPattern>管理システムID $ManagementSystemID が存在しないこと</annotatedPattern>
+      <resolvedPattern>管理システムID\s+(.*)\s+が存在しないこと</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>003: 管理システムを削除します</scenario>
+          <step>Then 管理システムID 1000 が存在しないこと</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>WHEN</type>
+      <annotatedPattern>システムアカウントID、管理システムID、権限ID $LoginID $MngSysID $PermID の権限を削除します</annotatedPattern>
+      <resolvedPattern>システムアカウントID、管理システムID、権限ID\s+(.*)\s+(.*)\s+(.*)\s+の権限を削除します</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>005: 保有権限を削除します</scenario>
+          <step>When システムアカウントID、管理システムID、権限ID m-tomoe 2000 1 の権限を削除します</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>GIVEN</type>
+      <annotatedPattern>保有権限を削除します</annotatedPattern>
+      <resolvedPattern>保有権限を削除します</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>005: 保有権限を削除します</scenario>
+          <step>Given 保有権限を削除します</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>WHEN</type>
+      <annotatedPattern>部署ID $UnitID を削除します</annotatedPattern>
+      <resolvedPattern>部署ID\s+(.*)\s+を削除します</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>002: 部署を削除します</scenario>
+          <step>When 部署ID 400 を削除します</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>THEN</type>
+      <annotatedPattern>システムアカウントID、管理システムID、権限ID $LoginID $MngSysID $PermID が存在しないこと</annotatedPattern>
+      <resolvedPattern>システムアカウントID、管理システムID、権限ID\s+(.*)\s+(.*)\s+(.*)\s+が存在しないこと</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>005: 保有権限を削除します</scenario>
+          <step>Then システムアカウントID、管理システムID、権限ID m-tomoe 2000 1 が存在しないこと</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>THEN</type>
+      <annotatedPattern>部署ID $UnitID が存在しないこと</annotatedPattern>
+      <resolvedPattern>部署ID\s+(.*)\s+が存在しないこと</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>002: 部署を削除します</scenario>
+          <step>Then 部署ID 400 が存在しないこと</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>GIVEN</type>
+      <annotatedPattern>権限を削除します</annotatedPattern>
+      <resolvedPattern>権限を削除します</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>004: 権限を削除します</scenario>
+          <step>Given 権限を削除します</step>
+        </use>
+      </usages>
+    </stepMatch>
+    <stepMatch>
+      <type>WHEN</type>
+      <annotatedPattern>管理システムID、権限ID $MngSysID $PermID を削除します</annotatedPattern>
+      <resolvedPattern>管理システムID、権限ID\s+(.*)\s+(.*)\s+を削除します</resolvedPattern>
+      <usages>
+        <use>
+          <story>test/resources/Delete.story</story>
+          <scenario>004: 権限を削除します</scenario>
+          <step>When 管理システムID、権限ID 2000 101 を削除します</step>
+        </use>
+      </usages>
+    </stepMatch>
+  </stepMatches>
+</xref>

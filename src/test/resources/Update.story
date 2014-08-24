@@ -1,0 +1,40 @@
+Scenario: 001: 社内アカウントを更新します
+
+Given ユーザID 1005 を更新します
+When 名前を くおえ うえーーるえうおええええ に変更します
+Then 以下が表示されていること
+|UserID|UserNameFirst|UserNameLast|
+|1005|くおえ|うえーーるえうおええええ|
+
+Scenario: 002: 部署を更新します
+
+Given 部署ID 400 を更新します
+When 部署名を 人事総務部 に変更します
+Then 以下の部署が表示されていること
+|UnitID|UnitName|
+|400|人事総務部|
+
+Scenario: 003: 管理システムを更新します
+
+Given 管理システムID 1000 を更新します
+When 名前を おちんぎん先生 に変更します
+Then 以下の管理システムが表示されていること
+|ManagementSystemID|ManagementSystemName|
+|1000|おちんぎん先生|
+
+
+Scenario: 004: 権限を更新します
+
+Given 管理システムID、権限ID 2000 101 を更新します
+When 権限名を 管理者 に変更します
+Then 以下の権限が表示されていること
+|ManagementSystemID|PermissionID|PermissionName|
+|2000|101|管理者|
+
+Scenario: 005: 保有権限を更新します
+
+Given システムアカウントID、管理システムID、権限ID m-tomoe 2000 101 の権限を更新します
+When 対象の権限を 1 に変更します
+Then 以下の権限が付与されていること
+|LoginID|ManagementSystemID|PermissionID|
+|m-tomoe|2000|1|

@@ -1,0 +1,203 @@
+{"xref": {
+  "whenMade": 1408889863571,
+  "createdBy": "JBehave",
+  "metaFilter": "",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "",
+      "name": "Delete.story",
+      "path": "test/resources/Delete.story",
+      "html": "test.resources.Delete.html",
+      "meta": "",
+      "scenarios": "Scenario:001: 社内アカウントを削除します\nGiven ユーザを削除します\nWhen ユーザID 1005 を削除します\nThen ユーザID 1005 が存在しないこと\n\n\nScenario:002: 部署を削除します\nGiven 部署を削除します\nWhen 部署ID 400 を削除します\nThen 部署ID 400 が存在しないこと\n\n\nScenario:003: 管理システムを削除します\nGiven 管理システムを削除します\nWhen 管理システムID 1000 を削除します\nThen 管理システムID 1000 が存在しないこと\n\n\nScenario:004: 権限を削除します\nGiven 権限を削除します\nWhen 管理システムID、権限ID 2000 101 を削除します\nThen 管理システムID、権限ID 2000 101 が存在しないこと\n\n\nScenario:005: 保有権限を削除します\nGiven 保有権限を削除します\nWhen システムアカウントID、管理システムID、権限ID m-tomoe 2000 1 の権限を削除します\nThen システムアカウントID、管理システムID、権限ID m-tomoe 2000 1 が存在しないこと\n\n\n",
+      "passed": true,
+      "pending": false,
+      "started": 1408889849122,
+      "duration": 14116
+    }
+  ],
+  "stepMatches": [
+    {
+      "type": "THEN",
+      "annotatedPattern": "管理システムID、権限ID $MngSysID $PermID が存在しないこと",
+      "resolvedPattern": "管理システムID、権限ID\\s+(.*)\\s+(.*)\\s+が存在しないこと",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "004: 権限を削除します",
+          "step": "Then 管理システムID、権限ID 2000 101 が存在しないこと"
+        }
+      ]
+    },
+    {
+      "type": "WHEN",
+      "annotatedPattern": "管理システムID $ManagementSystemID を削除します",
+      "resolvedPattern": "管理システムID\\s+(.*)\\s+を削除します",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "003: 管理システムを削除します",
+          "step": "When 管理システムID 1000 を削除します"
+        }
+      ]
+    },
+    {
+      "type": "THEN",
+      "annotatedPattern": "ユーザID $UserID が存在しないこと",
+      "resolvedPattern": "ユーザID\\s+(.*)\\s+が存在しないこと",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "001: 社内アカウントを削除します",
+          "step": "Then ユーザID 1005 が存在しないこと"
+        }
+      ]
+    },
+    {
+      "type": "GIVEN",
+      "annotatedPattern": "管理システムを削除します",
+      "resolvedPattern": "管理システムを削除します",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "003: 管理システムを削除します",
+          "step": "Given 管理システムを削除します"
+        }
+      ]
+    },
+    {
+      "type": "GIVEN",
+      "annotatedPattern": "ユーザを削除します",
+      "resolvedPattern": "ユーザを削除します",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "001: 社内アカウントを削除します",
+          "step": "Given ユーザを削除します"
+        }
+      ]
+    },
+    {
+      "type": "WHEN",
+      "annotatedPattern": "ユーザID $UserID を削除します",
+      "resolvedPattern": "ユーザID\\s+(.*)\\s+を削除します",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "001: 社内アカウントを削除します",
+          "step": "When ユーザID 1005 を削除します"
+        }
+      ]
+    },
+    {
+      "type": "GIVEN",
+      "annotatedPattern": "部署を削除します",
+      "resolvedPattern": "部署を削除します",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "002: 部署を削除します",
+          "step": "Given 部署を削除します"
+        }
+      ]
+    },
+    {
+      "type": "THEN",
+      "annotatedPattern": "管理システムID $ManagementSystemID が存在しないこと",
+      "resolvedPattern": "管理システムID\\s+(.*)\\s+が存在しないこと",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "003: 管理システムを削除します",
+          "step": "Then 管理システムID 1000 が存在しないこと"
+        }
+      ]
+    },
+    {
+      "type": "WHEN",
+      "annotatedPattern": "システムアカウントID、管理システムID、権限ID $LoginID $MngSysID $PermID の権限を削除します",
+      "resolvedPattern": "システムアカウントID、管理システムID、権限ID\\s+(.*)\\s+(.*)\\s+(.*)\\s+の権限を削除します",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "005: 保有権限を削除します",
+          "step": "When システムアカウントID、管理システムID、権限ID m-tomoe 2000 1 の権限を削除します"
+        }
+      ]
+    },
+    {
+      "type": "GIVEN",
+      "annotatedPattern": "保有権限を削除します",
+      "resolvedPattern": "保有権限を削除します",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "005: 保有権限を削除します",
+          "step": "Given 保有権限を削除します"
+        }
+      ]
+    },
+    {
+      "type": "WHEN",
+      "annotatedPattern": "部署ID $UnitID を削除します",
+      "resolvedPattern": "部署ID\\s+(.*)\\s+を削除します",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "002: 部署を削除します",
+          "step": "When 部署ID 400 を削除します"
+        }
+      ]
+    },
+    {
+      "type": "THEN",
+      "annotatedPattern": "システムアカウントID、管理システムID、権限ID $LoginID $MngSysID $PermID が存在しないこと",
+      "resolvedPattern": "システムアカウントID、管理システムID、権限ID\\s+(.*)\\s+(.*)\\s+(.*)\\s+が存在しないこと",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "005: 保有権限を削除します",
+          "step": "Then システムアカウントID、管理システムID、権限ID m-tomoe 2000 1 が存在しないこと"
+        }
+      ]
+    },
+    {
+      "type": "THEN",
+      "annotatedPattern": "部署ID $UnitID が存在しないこと",
+      "resolvedPattern": "部署ID\\s+(.*)\\s+が存在しないこと",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "002: 部署を削除します",
+          "step": "Then 部署ID 400 が存在しないこと"
+        }
+      ]
+    },
+    {
+      "type": "GIVEN",
+      "annotatedPattern": "権限を削除します",
+      "resolvedPattern": "権限を削除します",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "004: 権限を削除します",
+          "step": "Given 権限を削除します"
+        }
+      ]
+    },
+    {
+      "type": "WHEN",
+      "annotatedPattern": "管理システムID、権限ID $MngSysID $PermID を削除します",
+      "resolvedPattern": "管理システムID、権限ID\\s+(.*)\\s+(.*)\\s+を削除します",
+      "usages": [
+        {
+          "story": "test/resources/Delete.story",
+          "scenario": "004: 権限を削除します",
+          "step": "When 管理システムID、権限ID 2000 101 を削除します"
+        }
+      ]
+    }
+  ]
+}}
