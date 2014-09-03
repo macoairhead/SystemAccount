@@ -28,11 +28,12 @@ import org.codehaus.jackson.annotate.JsonBackReference;
 import org.codehaus.jackson.annotate.JsonManagedReference;
 import org.codehaus.jackson.map.annotate.JsonSerialize;
 
+import systemaccount.json.DateSerializer;
 import systemaccount.json.NumericSerializer;
 
 /**
  * The persistent class for the inhouseuser database table.
- * 
+ *
  */
 @Entity
 @NamedQuery(name = "Inhouseuser.findAll", query = "SELECT i FROM Inhouseuser i")

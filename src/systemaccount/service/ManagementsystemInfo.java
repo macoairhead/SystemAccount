@@ -16,7 +16,7 @@ public class ManagementsystemInfo extends BaseService {
 	}
 
 	public List<Managementsystem> getManagementsystemInfoList() {
-		return em.createQuery("select i from managementsystem i")
+		return em.createQuery("select i from Managementsystem i")
 				.getResultList();
 	}
 

@@ -21,12 +21,12 @@ public class PermissionInfo extends BaseService {
 	}
 
 	public List<Permission> getPermissionInfoList() {
-		return em.createQuery("select i from permission i").getResultList();
+		return em.createQuery("select i from Permission i").getResultList();
 	}
 
 	public List<Permission> getPermissionInfoByMngSysId(String mngSysId) {
 		return em.createQuery(
-				"select i from permission i where i.managementsystem.ManagementsystemID = "
+				"select i from Permission i where i.managementsystem.ManagementsystemID = "
 						+ mngSysId).getResultList();
 	}
 

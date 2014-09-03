@@ -34,8 +34,12 @@ public class ApplicationConfig extends Application {
 	 */
 
 	private void addRestResourceClasses(Set<Class<?>> resources) {
-		resources.add(systemAccount.json.webresource.InhouseuserResource.class);
-		resources.add(systemAccount.SystemAccountJson.class);
+		resources.add(systemaccount.json.webresource.InhouseuserResource.class);
+		resources.add(systemaccount.json.webresource.UnitResource.class);
+		resources.add(systemaccount.json.webresource.ManagementsystemResource.class);
+		resources.add(systemaccount.json.webresource.PermissionResource.class);
+		resources.add(systemaccount.json.webresource.UserpermissionResource.class);
+		resources.add(systemaccount.SystemAccountJson.class);
 
 	}
 

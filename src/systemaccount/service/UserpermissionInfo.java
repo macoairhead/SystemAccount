@@ -22,19 +22,19 @@ public class UserpermissionInfo extends BaseService {
 	}
 
 	public List<Userpermission> getUserpermissionInfoList() {
-		return em.createQuery("select i from unit i").getResultList();
+		return em.createQuery("select i from Userpermission i").getResultList();
 	}
 
 	public List<Userpermission> getUserpermissionInfoListByMngSysID(
 			String mngSysId) {
 		return em.createQuery(
-				"select i from userpermission i where i.managementsystem.ManagementSystemID = "
+				"select i from Userpermission i where i.managementsystem.ManagementSystemID = "
 						+ mngSysId).getResultList();
 	}
 
 	public List<Userpermission> getUserpermissionInfoListByPermID(String permId) {
 		return em.createQuery(
-				"select i from userpermission i where i.permission.PermissionID = "
+				"select i from Userpermission i where i.permission.PermissionID = "
 						+ permId).getResultList();
 	}
 

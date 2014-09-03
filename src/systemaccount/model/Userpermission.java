@@ -21,9 +21,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 import org.codehaus.jackson.annotate.JsonBackReference;
 import org.codehaus.jackson.map.annotate.JsonSerialize;
 
+import systemaccount.json.DateSerializer;
 /**
  * The persistent class for the userpermission database table.
- * 
+ *
  */
 @Entity
 @NamedQuery(name = "Userpermission.findAll", query = "SELECT u FROM Userpermission u")

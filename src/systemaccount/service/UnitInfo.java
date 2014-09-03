@@ -15,6 +15,6 @@ public class UnitInfo extends BaseService {
 	}
 
 	public List<Unit> getUnitInfoList() {
-		return em.createQuery("select i from unit i").getResultList();
+		return em.createQuery("select i from Unit i").getResultList();
 	}
 }

@@ -24,11 +24,11 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import org.codehaus.jackson.annotate.JsonManagedReference;
 import org.codehaus.jackson.map.annotate.JsonSerialize;
 
+import systemaccount.json.DateSerializer;
 import systemaccount.json.NumericSerializer;
-
 /**
  * The persistent class for the unit database table.
- * 
+ *
  */
 @Entity
 @NamedQuery(name = "Unit.findAll", query = "SELECT u FROM Unit u")

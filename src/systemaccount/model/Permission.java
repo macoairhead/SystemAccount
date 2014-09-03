@@ -24,9 +24,10 @@ import org.codehaus.jackson.annotate.JsonBackReference;
 import org.codehaus.jackson.annotate.JsonManagedReference;
 import org.codehaus.jackson.map.annotate.JsonSerialize;
 
+import systemaccount.json.DateSerializer;
 /**
  * The persistent class for the permission database table.
- * 
+ *
  */
 @Entity
 @NamedQuery(name = "Permission.findAll", query = "SELECT p FROM Permission p")
