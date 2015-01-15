@@ -2,17 +2,17 @@ package systemaccount.service;
 
 import java.util.LinkedHashMap;
 
-import systemaccount.constantitem.ElementName;
+import systemaccount.elementList.ElementName;
 import systemaccount.model.Managementsystem;
 
 public class UpdateManagementsystem extends BaseService {
 
-	public UpdateManagementsystem(ElementName key) {
+	public UpdateManagementsystem(String key) {
 		super(key);
 	}
 
-	public void updateManagementsystem(LinkedHashMap<ElementName, String> keyMap,
-			LinkedHashMap<ElementName, String> input) {
+	public void updateManagementsystem(LinkedHashMap<String, String> keyMap,
+			LinkedHashMap<String, String> input) {
 		et.begin();
 		Managementsystem record = em.find(Managementsystem.class,
 				keyMap.get(this.key));

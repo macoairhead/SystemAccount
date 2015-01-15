@@ -2,13 +2,11 @@ package systemaccount.service;
 
 import java.util.List;
 
-import systemaccount.constantitem.ElementName;
 import systemaccount.model.Managementsystem;
-import systemaccount.model.Managementsystemchangelog;
 
 public class ManagementsystemInfo extends BaseService {
 
-	public ManagementsystemInfo(ElementName key) {
+	public ManagementsystemInfo(String key) {
 		super(key);
 	}
 
@@ -18,12 +16,7 @@ public class ManagementsystemInfo extends BaseService {
 	}
 
 	public List<Managementsystem> getManagementsystemInfoList() {
-		return em.createQuery("Managementsystem.findAll")
-				.getResultList();
-	}
-
-	public List<Managementsystemchangelog> getManagementsystemchangelogList(){
-		return em.createQuery("Managementsystemchangelog.findAll")
+		return em.createQuery("select i from Managementsystem i")
 				.getResultList();
 	}
 

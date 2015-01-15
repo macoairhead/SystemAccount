@@ -2,6 +2,6 @@ package systemaccount.relationcheck;
 
 public abstract class BaseRelationCheck {
 
-	public abstract void exsistForeignKey(String param);
+	public abstract boolean exsistForeignKey(String param);
 
 }

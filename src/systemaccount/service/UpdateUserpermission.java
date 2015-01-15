@@ -1,22 +1,23 @@
 package systemaccount.service;
 
 import java.math.BigInteger;
+import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import systemaccount.constantitem.ElementName;
+import systemaccount.elementList.ElementName;
 import systemaccount.model.Inhouseuser;
 import systemaccount.model.Userpermission;
 import systemaccount.model.UserpermissionPK;
 
 public class UpdateUserpermission extends BaseService {
 
-	public UpdateUserpermission(List<ElementName> k) {
+	public UpdateUserpermission(List<String> k) {
 		super(k);
 	}
 
-	public void updateUserpermission(LinkedHashMap<ElementName, String> k,
-			LinkedHashMap<ElementName, String> input) throws Exception {
+	public void updateUserpermission(LinkedHashMap<String, String> k,
+			LinkedHashMap<String, String> input) throws Exception {
 		et.begin();
 		UserpermissionPK pk = new UserpermissionPK();
 		pk.setLoginID(k.get(this.keyLst.get(0)));
@@ -37,6 +38,11 @@ public class UpdateUserpermission extends BaseService {
 				newRecord.getInhouseuser().setUserID(
 						record.getInhouseuser().getUserID());
 			}
+			if (input.containsKey(ElementName.IsValid)) {
+				newRecord.setIsValid(new Byte(input.get(ElementName.IsValid)));
+			} else {
+				newRecord.setIsValid(record.getIsValid());
+			}
 			if (input.containsKey(this.keyLst.get(0))) {
 				newRecord.getPk().setLoginID(input.get(this.keyLst.get(0)));
 			} else {
@@ -56,6 +62,8 @@ public class UpdateUserpermission extends BaseService {
 				newRecord.getPk().setPermissionID(
 						record.getPk().getPermissionID());
 			}
+			newRecord.setInputDate(new Date());
+			newRecord.setUpdateDate(new Date());
 			em.merge(newRecord);
 			em.remove(record);
 		} else {
@@ -63,6 +71,10 @@ public class UpdateUserpermission extends BaseService {
 				record.getInhouseuser().setUserID(
 						new BigInteger(input.get(ElementName.UserID)));
 			}
+			if (input.containsKey(ElementName.IsValid)) {
+				record.setIsValid(new Byte(input.get(ElementName.IsValid)));
+			}
+			record.setUpdateDate(new Date());
 			em.merge(record);
 		}
 		et.commit();

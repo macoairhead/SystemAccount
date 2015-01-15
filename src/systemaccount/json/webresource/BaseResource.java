@@ -7,25 +7,23 @@ import java.util.List;
 import javax.annotation.Resource;
 import javax.enterprise.context.RequestScoped;
 
-import systemaccount.constantitem.ElementName;
-
 @RequestScoped
 @Resource(name = "jdbc/MARIA_JDBC")
 public abstract class BaseResource {
 
-	protected ElementName key;
-	protected List<ElementName> keys;
+	protected String key;
+	protected List<String> keys;
 
 	public BaseResource() {
 		super();
 	}
 
-	public BaseResource(ElementName k) {
+	public BaseResource(String k) {
 		super();
 		this.key = k;
 	}
 
-	public BaseResource(List<ElementName> k) {
+	public BaseResource(List<String> k) {
 		super();
 		this.keys = k;
 	}

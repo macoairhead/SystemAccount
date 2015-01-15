@@ -3,17 +3,16 @@ package systemaccount.service;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-import systemaccount.constantitem.ElementName;
 import systemaccount.model.Userpermission;
 import systemaccount.model.UserpermissionPK;
 
 public class DeleteUserpermission extends BaseService {
 
-	public DeleteUserpermission(List<ElementName> param) {
+	public DeleteUserpermission(List<String> param) {
 		super(param);
 	}
 
-	public void deleteUserpermission(LinkedHashMap<ElementName, String> input) {
+	public void deleteUserpermission(LinkedHashMap<String, String> input) {
 		et.begin();
 		UserpermissionPK pk = new UserpermissionPK();
 		pk.setLoginID(input.get(this.keyLst.get(0)));

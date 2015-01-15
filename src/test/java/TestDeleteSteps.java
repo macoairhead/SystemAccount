@@ -9,7 +9,7 @@ import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 import org.junit.Test;
 
-import systemaccount.constantitem.ElementName;
+import systemaccount.elementList.ElementName;
 import systemaccount.json.webresource.InhouseuserResource;
 import systemaccount.json.webresource.ManagementsystemResource;
 import systemaccount.json.webresource.PermissionResource;

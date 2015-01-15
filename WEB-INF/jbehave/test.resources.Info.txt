@@ -1,30 +1,30 @@
 
 (test/resources/Info.story)
-Scenario: 001: ŽÐ“àƒAƒJƒEƒ“ƒg‚ð•\Ž¦‚µ‚Ü‚·
-Given ŽÐˆõ‚ð•\Ž¦‚µ‚Ü‚·
-When ƒ†[ƒUID 1000 ‚ð•\Ž¦‚µ‚Ü‚·
-Then ˆÈ‰º‚ª•\Ž¦‚³‚ê‚Ä‚¢‚é‚±‚Æ
+Scenario: 001: ç¤¾å†…ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’è¡¨ç¤ºã—ã¾ã™
+Given ç¤¾å“¡ã‚’è¡¨ç¤ºã—ã¾ã™
+When ãƒ¦ãƒ¼ã‚¶ID 1000 ã‚’è¡¨ç¤ºã—ã¾ã™
+Then ä»¥ä¸‹ãŒè¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹ã“ã¨
 
 |UserID|UserNameFirst|UserNameLast|
-|1000|‚Ü‚Ý|‚Æ‚à‚¦|
+|1000|ã¾ã¿|ã¨ã‚‚ãˆ|
 
 
-Scenario: 002: •”‚ð•\Ž¦‚µ‚Ü‚·
-Given •”‚ð•\Ž¦‚µ‚Ü‚·
-When •”ID 200 ‚ð•\Ž¦‚µ‚Ü‚·
-Then ˆÈ‰º‚Ì•”‚ª•\Ž¦‚³‚ê‚Ä‚¢‚é‚±‚Æ
+Scenario: 002: éƒ¨ç½²ã‚’è¡¨ç¤ºã—ã¾ã™
+Given éƒ¨ç½²ã‚’è¡¨ç¤ºã—ã¾ã™
+When éƒ¨ç½²ID 200 ã‚’è¡¨ç¤ºã—ã¾ã™
+Then ä»¥ä¸‹ã®éƒ¨ç½²ãŒè¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹ã“ã¨
 
 |UnitID|UnitName|
-|200|à–±•”|
+|200|è²¡å‹™éƒ¨|
 
 
-Scenario: 003: ŠÇ—ƒVƒXƒeƒ€‚ð•\Ž¦‚µ‚Ü‚·
-Given ŠÇ—ƒVƒXƒeƒ€‚ð•\Ž¦‚µ‚Ü‚·
-When ŠÇ—ƒVƒXƒeƒ€ID 2000 ‚ð•\Ž¦‚µ‚Ü‚·
-Then ˆÈ‰º‚ÌŠÇ—ƒVƒXƒeƒ€‚ª•\Ž¦‚³‚ê‚Ä‚¢‚é‚±‚Æ
+Scenario: 003: ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’è¡¨ç¤ºã—ã¾ã™
+Given ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’è¡¨ç¤ºã—ã¾ã™
+When ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID 2000 ã‚’è¡¨ç¤ºã—ã¾ã™
+Then ä»¥ä¸‹ã®ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ãŒè¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹ã“ã¨
 
 |ManagementSystemID|ManagementSystemName|
-|2000|à–±”Ô’·|
+|2000|è²¡å‹™ç•ªé•·|
 
 
 

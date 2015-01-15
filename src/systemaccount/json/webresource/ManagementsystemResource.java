@@ -17,8 +17,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
-import systemaccount.constantitem.ElementName;
-import systemaccount.constantitem.QueryParamValue;
+import systemaccount.elementList.ElementName;
 import systemaccount.exception.ItemCheckException;
 import systemaccount.itemcheck.ManagementsystemItemCheck;
 import systemaccount.model.Managementsystem;
@@ -42,7 +41,7 @@ public class ManagementsystemResource extends BaseResource {
 	@Path("Managementsystem")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Managementsystem getItem(
-			@QueryParam(QueryParamValue.MngSystemID) String mngSysId)
+			@QueryParam(ElementName.MngSystemID) String mngSysId)
 			throws Exception {
 		try {
 			this.check(mngSysId);

@@ -10,78 +10,66 @@
 <script type="syntaxhighlighter" class="brush: txt"><![CDATA[
 
 (test/resources/Create.story)
-Scenario: 001:  Ğ“àƒAƒJƒEƒ“ƒg‚ÉˆêŒ’Ç‰Á‚µ‚Ü‚·
-Given ‹ó‚ÌĞˆõ‚ğì¬‚µ‚Ü‚·
-When ƒtƒ‰ƒ“ƒX‚©‚ç‚ÌV“üĞˆõ‚ğ’Ç‰Á‚µ‚Ü‚·
+Scenario: 001:  ç¤¾å†…ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã«ä¸€ä»¶è¿½åŠ ã—ã¾ã™
+Given ç©ºã®ç¤¾å“¡ã‚’ä½œæˆã—ã¾ã™
+When ãƒ•ãƒ©ãƒ³ã‚¹ã‹ã‚‰ã®æ–°å…¥ç¤¾å“¡ã‚’è¿½åŠ ã—ã¾ã™
 
 |UserID|UnitID|UserNameFirst|UserNameLast|
-|1005|200|ƒNƒƒG|ƒ‹ƒ[ƒ‹|
+|1005|200|ã‚¯ãƒ­ã‚¨|ãƒ«ãƒ¡ãƒ¼ãƒ«|
 
-Then ˆÈ‰º‚ÌĞˆõ‚ª’Ç‰Á‚³‚ê‚Ä‚¢‚é‚±‚Æ
+Then ä»¥ä¸‹ã®ç¤¾å“¡ãŒè¿½åŠ ã•ã‚Œã¦ã„ã‚‹ã“ã¨
 
 |UserID|UnitID|UserNameFirst|UserNameLast|
-|1005|200|ƒNƒƒG|ƒ‹ƒ[ƒ‹|
+|1005|200|ã‚¯ãƒ­ã‚¨|ãƒ«ãƒ¡ãƒ¼ãƒ«|
 
 
-Scenario: 002:  •”‚ğˆêŒ’Ç‰Á‚µ‚Ü‚·
-Given V‚µ‚¢•”‚ğì¬‚µ‚Ü‚·
-When l–•”‚ğ’Ç‰Á‚µ‚Ü‚·
-
-|UnitID|UnitName|
-|400|l–•”|
- (FAILED)
-(<openjpa-2.2.2-r422266:1468616 fatal store error> org.apache.openjpa.persistence.RollbackException: The transaction has been rolled back.  See the nested exceptions for details on the errors that occurred.
-FailedObject: systemaccount.model.Unit@196f4e87)
-Then ˆÈ‰º‚Ì•”‚ª’Ç‰Á‚³‚ê‚Ä‚¢‚é‚±‚Æ
+Scenario: 002:  éƒ¨ç½²ã‚’ä¸€ä»¶è¿½åŠ ã—ã¾ã™
+Given æ–°ã—ã„éƒ¨ç½²ã‚’ä½œæˆã—ã¾ã™
+When äººäº‹éƒ¨ã‚’è¿½åŠ ã—ã¾ã™
 
 |UnitID|UnitName|
-|400|l–•”|
- (NOT PERFORMED)
+|400|äººäº‹éƒ¨|
 
-<openjpa-2.2.2-r422266:1468616 fatal store error> org.apache.openjpa.persistence.RollbackException: The transaction has been rolled back.  See the nested exceptions for details on the errors that occurred.
-FailedObject: systemaccount.model.Unit@196f4e87
-	at org.apache.openjpa.persistence.EntityManagerImpl.commit(EntityManagerImpl.java:594)
-	at systemaccount.service.CreateUnit.createUnit(CreateUnit.java:24)
-	at systemaccount.json.webresource.UnitResource.createItem(UnitResource.java:80)
-	at test.java.TestCreateSteps.whenCreateUnit(TestCreateSteps.java:75)
-	(reflection-invoke)
-	at org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:550)
-	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:531)
-...
-Scenario: 003: ŠÇ—ƒVƒXƒeƒ€‚ğˆêŒ’Ç‰Á‚µ‚Ü‚·
-Given V‚µ‚¢ŠÇ—ƒVƒXƒeƒ€‚ğì¬‚µ‚Ü‚·
-When ‹‹—^ƒVƒXƒeƒ€‚ğì¬‚µ‚Ü‚·
+Then ä»¥ä¸‹ã®éƒ¨ç½²ãŒè¿½åŠ ã•ã‚Œã¦ã„ã‚‹ã“ã¨
+
+|UnitID|UnitName|
+|400|äººäº‹éƒ¨|
+
+
+Scenario: 003: ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’ä¸€ä»¶è¿½åŠ ã—ã¾ã™
+Given æ–°ã—ã„ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’ä½œæˆã—ã¾ã™
+When çµ¦ä¸ã‚·ã‚¹ãƒ†ãƒ ã‚’ä½œæˆã—ã¾ã™
 
 |ManagementSystemID|ManagementSystemName|
-|1000|‹‹—¿•òs|
+|1000|çµ¦æ–™å¥‰è¡Œ|
 
-Then ˆÈ‰º‚ÌŠÇ—ƒVƒXƒeƒ€‚ª’Ç‰Á‚³‚ê‚Ä‚¢‚é‚±‚Æ
+Then ä»¥ä¸‹ã®ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ãŒè¿½åŠ ã•ã‚Œã¦ã„ã‚‹ã“ã¨
 
 |ManagementSystemID|ManagementSystemName|
-|1000|‹‹—¿•òs|
+|1000|çµ¦æ–™å¥‰è¡Œ|
 
 
-Scenario: 004: Œ ŒÀ‚ğˆêŒ’Ç‰Á‚µ‚Ü‚·
-Given V‚µ‚¢Œ ŒÀ‚ğì¬‚µ‚Ü‚·
-When ƒVƒXƒeƒ€ŠÇ—ÒŒ ŒÀ‚ğì¬‚µ‚Ü‚·
-
-|ManagementSystemID|PermissionID|PermissionName|
-|2000|101|ƒVƒXƒeƒ€ŠÇ—Ò|
-
-Then ˆÈ‰º‚ÌŒ ŒÀ‚ª’Ç‰Á‚³‚ê‚Ä‚¢‚é‚±‚Æ
+Scenario: 004: æ¨©é™ã‚’ä¸€ä»¶è¿½åŠ ã—ã¾ã™
+Given æ–°ã—ã„æ¨©é™ã‚’ä½œæˆã—ã¾ã™
+When ã‚·ã‚¹ãƒ†ãƒ ç®¡ç†è€…æ¨©é™ã‚’ä½œæˆã—ã¾ã™
 
 |ManagementSystemID|PermissionID|PermissionName|
-|2000|101|ƒVƒXƒeƒ€ŠÇ—Ò|
+|2000|101|ã‚·ã‚¹ãƒ†ãƒ ç®¡ç†è€…|
+
+Then ä»¥ä¸‹ã®æ¨©é™ãŒè¿½åŠ ã•ã‚Œã¦ã„ã‚‹ã“ã¨
+
+|ManagementSystemID|PermissionID|PermissionName|
+|2000|101|ã‚·ã‚¹ãƒ†ãƒ ç®¡ç†è€…|
 
 
-Scenario: 005: Œ ŒÀ‚ğ•t—^‚µ‚Ü‚·
-Given V‚µ‚¢Œ ŒÀ‚ğ•t—^‚µ‚Ü‚·
-When ˆÈ‰º‚ÌƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒg‚ÉV‚µ‚¢Œ ŒÀ‚ğ•t—^‚µ‚Ü‚·
+Scenario: 005: æ¨©é™ã‚’ä»˜ä¸ã—ã¾ã™
+Given æ–°ã—ã„æ¨©é™ã‚’ä»˜ä¸ã—ã¾ã™
+When ä»¥ä¸‹ã®ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã«æ–°ã—ã„æ¨©é™ã‚’ä»˜ä¸ã—ã¾ã™
 
 |UserID|LoginID|ManagementSystemID|PermissionID|
 |1000|m-tomoe|2000|101|
 
-Then ˆÈ‰º‚ÌŒ ŒÀ‚ª•t—^‚³‚ê‚Ä‚¢‚é‚±‚Æ
+Then ä»¥ä¸‹ã®æ¨©é™ãŒä»˜ä¸ã•ã‚Œã¦ã„ã‚‹ã“ã¨
 
 |UserID|LoginID|ManagementSystemID|PermissionID|
 |1000|m-tomoe|2000|101|

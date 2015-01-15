@@ -16,8 +16,6 @@ import javax.ws.rs.ext.Provider;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
 
-import systemaccount.constantitem.ElementName;
-
 @Provider
 @Consumes(MediaType.APPLICATION_JSON)
 public class JsonMapMessageBodyReader implements
@@ -44,7 +42,7 @@ public class JsonMapMessageBodyReader implements
 			throws IOException, WebApplicationException {
 		// TODO 自動生成されたメソッド・スタブ
 		LinkedHashMap<String, String> map = mapper.readValue(entityStream,
-				new TypeReference<LinkedHashMap<ElementName, String>>() {
+				new TypeReference<LinkedHashMap<String, String>>() {
 				});
 		return map;
 	}

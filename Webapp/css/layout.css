@@ -1,8 +1,8 @@
 /* Essentials */
 
-html, div, map, dt, isindex, form, header, aside, section, section, article, footer {
-    display: block;
-}
+html, div, map, dt, isindex, form, header, aside, section, section, article, footer {  
+    display: block;  
+} 
 
 html, body {
 height: 100%;
@@ -280,6 +280,7 @@ margin: 0 0 0 12%; padding: 0;
 
 #sidebar li a {
 color: #666666;
+padding-left: 25px;
 text-decoration: none;
 display: inline-block;
 height: 17px;
@@ -449,39 +450,39 @@ width: 64%;
 float: left;
 }
 
-.unit_overview {
+.stats_overview {
 background: #F6F6F6;
 border: 1px solid #ccc;
-float: center;
-width: 80%;
+float: right;
+width: 26%;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
 border-radius: 5px;
 }
 
 .overview_today, .overview_previous {
-width: 80%;
+width: 50%;
 float: left;}
 
-.unit_overview span {
+.stats_overview p {
 margin: 0; padding: 0;
 text-align: center;
 text-transform: uppercase;
 text-shadow: 0 1px 0 #fff;
 }
 
-.unit_overview span.overview_day {
+.stats_overview p.overview_day {
 font-size: 12px;
 font-weight: bold;
 margin: 6px 0;
 }
 
-.unit_overview span.overview_count {
+.stats_overview p.overview_count {
 font-size: 26px;
 font-weight: bold;
 color: #333333;}
 
-.unit_overview span.overview_type {
+.stats_overview p.overview_type {
 font-size: 10px;
 color: #999999;
 margin-bottom: 8px}
