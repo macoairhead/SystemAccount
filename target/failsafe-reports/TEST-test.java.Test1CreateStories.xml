@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.java.Test1CreateStories" time="30.838" tests="22" errors="1" skipped="1" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\java\jdk1.7.0_40\jre\bin"/>
+    <property name="java.vm.version" value="24.0-b56"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="JP"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\git\gitrepo\SystemAccount"/>
+    <property name="java.runtime.version" value="1.7.0_40-b43"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\java\jdk1.7.0_40\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\maco\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\git\gitrepo\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8804969804536859325.tmp"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.library.path" value="D:\java\jdk1.7.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/pleiades/eclipse/jre/bin/server;D:/pleiades/eclipse/jre/bin;D:/pleiades/eclipse/jre/lib/amd64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\maven\apache-maven-3.2.3\bin;;D:\pleiades\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\maco"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="MS932"/>
+    <property name="user.name" value="maco"/>
+    <property name="java.class.path" value="D:\maven\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\java\jdk1.7.0_40\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -B -X -e -s D:\maven\settings.xml verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ja"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_40"/>
+    <property name="java.ext.dirs" value="D:\java\jdk1.7.0_40\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\java\jdk1.7.0_40\jre\lib\resources.jar;D:\java\jdk1.7.0_40\jre\lib\rt.jar;D:\java\jdk1.7.0_40\jre\lib\sunrsasign.jar;D:\java\jdk1.7.0_40\jre\lib\jsse.jar;D:\java\jdk1.7.0_40\jre\lib\jce.jar;D:\java\jdk1.7.0_40\jre\lib\charsets.jar;D:\java\jdk1.7.0_40\jre\lib\jfr.jar;D:\java\jdk1.7.0_40\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\maven\apache-maven-3.2.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="D:\maven\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.019"/>
+  <testcase name="Given 空の社員を作成します" classname="test.java.TestCreateSteps" time="0.001"/>
+  <testcase name="When フランスからの新入社員を追加します, " classname="test.java.TestCreateSteps" time="4.438"/>
+  <testcase name="Then 以下の社員が追加されていること, " classname="test.java.TestCreateSteps" time="1.723"/>
+  <testcase name="Scenario: 001:  社内アカウントに一件追加します" classname="Scenario: 001:  社内アカウントに一件追加します" time="1.73"/>
+  <testcase name="Given 新しい部署を作成します" classname="test.java.TestCreateSteps" time="0"/>
+  <testcase name="When 人事部を追加します, " classname="test.java.TestCreateSteps" time="1.728">
+    <error message="The transaction has been rolled back.  See the nested exceptions for details on the errors that occurred." type="org.apache.openjpa.persistence.RollbackException">org.apache.openjpa.persistence.RollbackException: The transaction has been rolled back.  See the nested exceptions for details on the errors that occurred.
+	at org.apache.openjpa.lib.jdbc.LoggingConnectionDecorator.wrap(LoggingConnectionDecorator.java:219)
+	at org.apache.openjpa.lib.jdbc.LoggingConnectionDecorator.wrap(LoggingConnectionDecorator.java:195)
+	at org.apache.openjpa.lib.jdbc.LoggingConnectionDecorator.access$1000(LoggingConnectionDecorator.java:59)
+	at org.apache.openjpa.lib.jdbc.LoggingConnectionDecorator$LoggingConnection$LoggingPreparedStatement.executeUpdate(LoggingConnectionDecorator.java:1134)
+	at org.apache.openjpa.lib.jdbc.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:275)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager$CancelPreparedStatement.executeUpdate(JDBCStoreManager.java:1792)
+	at org.apache.openjpa.jdbc.kernel.PreparedStatementManagerImpl.executeUpdate(PreparedStatementManagerImpl.java:268)
+	at org.apache.openjpa.jdbc.kernel.PreparedStatementManagerImpl.flushAndUpdate(PreparedStatementManagerImpl.java:119)
+	at org.apache.openjpa.jdbc.kernel.BatchingPreparedStatementManagerImpl.flushAndUpdate(BatchingPreparedStatementManagerImpl.java:79)
+	at org.apache.openjpa.jdbc.kernel.PreparedStatementManagerImpl.flushInternal(PreparedStatementManagerImpl.java:100)
+	at org.apache.openjpa.jdbc.kernel.PreparedStatementManagerImpl.flush(PreparedStatementManagerImpl.java:88)
+	at org.apache.openjpa.jdbc.kernel.ConstraintUpdateManager.flush(ConstraintUpdateManager.java:550)
+	at org.apache.openjpa.jdbc.kernel.ConstraintUpdateManager.flush(ConstraintUpdateManager.java:106)
+	at org.apache.openjpa.jdbc.kernel.BatchingConstraintUpdateManager.flush(BatchingConstraintUpdateManager.java:59)
+	at org.apache.openjpa.jdbc.kernel.AbstractUpdateManager.flush(AbstractUpdateManager.java:105)
+	at org.apache.openjpa.jdbc.kernel.AbstractUpdateManager.flush(AbstractUpdateManager.java:78)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.flush(JDBCStoreManager.java:732)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.flush(DelegatingStoreManager.java:131)
+	at org.apache.openjpa.kernel.BrokerImpl.flush(BrokerImpl.java:2184)
+	at org.apache.openjpa.kernel.BrokerImpl.flushSafe(BrokerImpl.java:2082)
+	at org.apache.openjpa.kernel.BrokerImpl.beforeCompletion(BrokerImpl.java:2000)
+	at org.apache.openjpa.kernel.LocalManagedRuntime.commit(LocalManagedRuntime.java:81)
+	at org.apache.openjpa.kernel.BrokerImpl.commit(BrokerImpl.java:1524)
+	at org.apache.openjpa.kernel.DelegatingBroker.commit(DelegatingBroker.java:933)
+	at org.apache.openjpa.persistence.EntityManagerImpl.commit(EntityManagerImpl.java:570)
+	at systemaccount.service.CreateUnit.createUnit(CreateUnit.java:24)
+	at systemaccount.json.webresource.UnitResource.createItem(UnitResource.java:80)
+	at test.java.TestCreateSteps.whenCreateUnit(TestCreateSteps.java:75)
+</error>
+    <system-out><![CDATA[Given 新しい部署を作成します
+]]></system-out>
+    <system-err><![CDATA[0  SystemAccount  WARN   [pool-1-thread-1] openjpa.Runtime - Could not create the optional validation provider. Reason returned: "A default ValidatorFactory could not be created."
+0  SystemAccount  INFO   [pool-1-thread-1] openjpa.Runtime - Starting OpenJPA 2.2.2
+0  SystemAccount  INFO   [pool-1-thread-1] openjpa.jdbc.JDBC - Using dictionary class "org.apache.openjpa.jdbc.sql.MySQLDictionary".
+1701  SystemAccount  TRACE  [pool-1-thread-1] openjpa.jdbc.SQL - <t 625292359, conn 344007354> executing prepstmnt 1997498415 
+INSERT INTO Unit (unitID, inputDate, isValid, unitName, updateDate) 
+    VALUES (?, ?, ?, ?, ?) 
+[params=(int) 400, (Date) 2014-09-07, (byte) 0, (String) 人事部, (Date) 2014-09-07]
+1703  SystemAccount  TRACE  [pool-1-thread-1] openjpa.jdbc.SQL - <t 625292359, conn 344007354> [2 ms] spent
+9 07, 2014 2:06:16 午後 systemaccount.json.webresource.UnitResource createItem
+重大: The transaction has been rolled back.  See the nested exceptions for details on the errors that occurred.
+<openjpa-2.2.2-r422266:1468616 fatal store error> org.apache.openjpa.persistence.RollbackException: The transaction has been rolled back.  See the nested exceptions for details on the errors that occurred.
+FailedObject: systemaccount.model.Unit@196f4e87
+	at org.apache.openjpa.persistence.EntityManagerImpl.commit(EntityManagerImpl.java:594)
+	at systemaccount.service.CreateUnit.createUnit(CreateUnit.java:24)
+	at systemaccount.json.webresource.UnitResource.createItem(UnitResource.java:80)
+	at test.java.TestCreateSteps.whenCreateUnit(TestCreateSteps.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jbehave.core.steps.StepCreator$ParameterisedStep.perform(StepCreator.java:550)
+	at org.jbehave.core.embedder.StoryRunner$FineSoFar.run(StoryRunner.java:531)
+	at org.jbehave.core.embedder.StoryRunner.runStepsWhileKeepingState(StoryRunner.java:511)
+	at org.jbehave.core.embedder.StoryRunner.runScenarioSteps(StoryRunner.java:475)
+	at org.jbehave.core.embedder.StoryRunner.runCancellable(StoryRunner.java:308)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:220)
+	at org.jbehave.core.embedder.StoryRunner.run(StoryRunner.java:181)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:229)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:201)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: <openjpa-2.2.2-r422266:1468616 fatal store error> org.apache.openjpa.persistence.EntityExistsException: The transaction has been rolled back.  See the nested exceptions for details on the errors that occurred.
+FailedObject: systemaccount.model.Unit@196f4e87
+	at org.apache.openjpa.kernel.BrokerImpl.newFlushException(BrokerImpl.java:2347)
+	at org.apache.openjpa.kernel.BrokerImpl.flush(BrokerImpl.java:2184)
+	at org.apache.openjpa.kernel.BrokerImpl.flushSafe(BrokerImpl.java:2082)
+	at org.apache.openjpa.kernel.BrokerImpl.beforeCompletion(BrokerImpl.java:2000)
+	at org.apache.openjpa.kernel.LocalManagedRuntime.commit(LocalManagedRuntime.java:81)
+	at org.apache.openjpa.kernel.BrokerImpl.commit(BrokerImpl.java:1524)
+	at org.apache.openjpa.kernel.DelegatingBroker.commit(DelegatingBroker.java:933)
+	at org.apache.openjpa.persistence.EntityManagerImpl.commit(EntityManagerImpl.java:570)
+	... 20 more
+Caused by: <openjpa-2.2.2-r422266:1468616 fatal store error> org.apache.openjpa.persistence.EntityExistsException: Duplicate entry '400' for key 'PRIMARY' {prepstmnt 1997498415 
+INSERT INTO Unit (unitID, inputDate, isValid, unitName, updateDate) 
+    VALUES (?, ?, ?, ?, ?) 
+[params=(int) 400, (Date) 2014-09-07, (byte) 0, (String) 人事部, (Date) 2014-09-07]} [code=1062, state=23000]
+FailedObject: systemaccount.model.Unit@196f4e87
+	at org.apache.openjpa.jdbc.sql.DBDictionary.narrow(DBDictionary.java:4947)
+	at org.apache.openjpa.jdbc.sql.DBDictionary.newStoreException(DBDictionary.java:4922)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:136)
+	at org.apache.openjpa.jdbc.sql.SQLExceptions.getStore(SQLExceptions.java:78)
+	at org.apache.openjpa.jdbc.kernel.PreparedStatementManagerImpl.flushAndUpdate(PreparedStatementManagerImpl.java:144)
+	at org.apache.openjpa.jdbc.kernel.BatchingPreparedStatementManagerImpl.flushAndUpdate(BatchingPreparedStatementManagerImpl.java:79)
+	at org.apache.openjpa.jdbc.kernel.PreparedStatementManagerImpl.flushInternal(PreparedStatementManagerImpl.java:100)
+	at org.apache.openjpa.jdbc.kernel.PreparedStatementManagerImpl.flush(PreparedStatementManagerImpl.java:88)
+	at org.apache.openjpa.jdbc.kernel.ConstraintUpdateManager.flush(ConstraintUpdateManager.java:550)
+	at org.apache.openjpa.jdbc.kernel.ConstraintUpdateManager.flush(ConstraintUpdateManager.java:106)
+	at org.apache.openjpa.jdbc.kernel.BatchingConstraintUpdateManager.flush(BatchingConstraintUpdateManager.java:59)
+	at org.apache.openjpa.jdbc.kernel.AbstractUpdateManager.flush(AbstractUpdateManager.java:105)
+	at org.apache.openjpa.jdbc.kernel.AbstractUpdateManager.flush(AbstractUpdateManager.java:78)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager.flush(JDBCStoreManager.java:732)
+	at org.apache.openjpa.kernel.DelegatingStoreManager.flush(DelegatingStoreManager.java:131)
+	... 27 more
+Caused by: org.apache.openjpa.lib.jdbc.ReportingSQLException: Duplicate entry '400' for key 'PRIMARY' {prepstmnt 1997498415 
+INSERT INTO Unit (unitID, inputDate, isValid, unitName, updateDate) 
+    VALUES (?, ?, ?, ?, ?) 
+[params=(int) 400, (Date) 2014-09-07, (byte) 0, (String) 人事部, (Date) 2014-09-07]} [code=1062, state=23000]
+	at org.apache.openjpa.lib.jdbc.LoggingConnectionDecorator.wrap(LoggingConnectionDecorator.java:219)
+	at org.apache.openjpa.lib.jdbc.LoggingConnectionDecorator.wrap(LoggingConnectionDecorator.java:195)
+	at org.apache.openjpa.lib.jdbc.LoggingConnectionDecorator.access$1000(LoggingConnectionDecorator.java:59)
+	at org.apache.openjpa.lib.jdbc.LoggingConnectionDecorator$LoggingConnection$LoggingPreparedStatement.executeUpdate(LoggingConnectionDecorator.java:1134)
+	at org.apache.openjpa.lib.jdbc.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:275)
+	at org.apache.openjpa.jdbc.kernel.JDBCStoreManager$CancelPreparedStatement.executeUpdate(JDBCStoreManager.java:1792)
+	at org.apache.openjpa.jdbc.kernel.PreparedStatementManagerImpl.executeUpdate(PreparedStatementManagerImpl.java:268)
+	at org.apache.openjpa.jdbc.kernel.PreparedStatementManagerImpl.flushAndUpdate(PreparedStatementManagerImpl.java:119)
+	... 37 more
+
+]]></system-err>
+  </testcase>
+  <testcase name="Then 以下の部署が追加されていること, " classname="test.java.TestCreateSteps" time="0">
+    <skipped/>
+    <system-out><![CDATA[When 人事部を追加します
+
+|UnitID|UnitName|
+|400|人事部|
+ (FAILED)
+(<openjpa-2.2.2-r422266:1468616 fatal store error> org.apache.openjpa.persistence.RollbackException: The transaction has been rolled back.  See the nested exceptions for details on the errors that occurred.
+FailedObject: systemaccount.model.Unit@196f4e87)
+]]></system-out>
+  </testcase>
+  <testcase name="Given 新しい管理システムを作成します" classname="test.java.TestCreateSteps" time="0"/>
+  <testcase name="When 給与システムを作成します, " classname="test.java.TestCreateSteps" time="1.963"/>
+  <testcase name="Then 以下の管理システムが追加されていること, " classname="test.java.TestCreateSteps" time="1.583"/>
+  <testcase name="Scenario: 003: 管理システムを一件追加します" classname="Scenario: 003: 管理システムを一件追加します" time="1.589"/>
+  <testcase name="Given 新しい権限を作成します" classname="test.java.TestCreateSteps" time="0"/>
+  <testcase name="When システム管理者権限を作成します, " classname="test.java.TestCreateSteps" time="2.994"/>
+  <testcase name="Then 以下の権限が追加されていること, " classname="test.java.TestCreateSteps" time="1.456"/>
+  <testcase name="Scenario: 004: 権限を一件追加します" classname="Scenario: 004: 権限を一件追加します" time="1.461"/>
+  <testcase name="Given 新しい権限を付与します" classname="test.java.TestCreateSteps" time="0"/>
+  <testcase name="When 以下のシステムアカウントに新しい権限を付与します, " classname="test.java.TestCreateSteps" time="4.789"/>
+  <testcase name="Then 以下の権限が付与されていること, " classname="test.java.TestCreateSteps" time="1.783"/>
+  <testcase name="Scenario: 005: 権限を付与します" classname="Scenario: 005: 権限を付与します" time="1.789"/>
+  <testcase name="Create.story" classname="Create.story" time="1.79"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0.002"/>
+</testsuite>

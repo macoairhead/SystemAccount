@@ -40,7 +40,7 @@ var UsersViewModel = (function () {
 			success : function(response) {
 				var marray = [];
 				for (var i = 0; i < response.length; i++) {
-					marray.push(new UsersModel(response[i]));
+					marray.push(new UserModel(response[i]));
 				}
 				this.users(marray);
 			}
@@ -60,7 +60,7 @@ var UsersViewModel = (function () {
 				for (var i = 0; i < response.length; i++) {
 					var a = [];
 					for (var t = 0; t < response[i].inhouseusers.length; t++) {
-						var u = new UsersModel(response[i].inhouseusers[t]);
+						var u = new UserModel(response[i].inhouseusers[t]);
 						u.setunit(response[i].UnitName);
 						marray.push(u);
 					}

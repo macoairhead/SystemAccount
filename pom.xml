@@ -135,7 +135,38 @@
 					</execution>
 				</executions>
 			</plugin>
+
+   <plugin>
+        <groupId>org.apache.openjpa</groupId>
+        <artifactId>openjpa-maven-plugin</artifactId>
+        <version>2.2.2</version>
+        <configuration>
+            <includes>**/model/*.class</includes>
+            <excludes>**/model/XML*.class</excludes>
+            <addDefaultConstructor>true</addDefaultConstructor>
+            <enforcePropertyRestrictions>true</enforcePropertyRestrictions>
+        </configuration>
+        <executions>
+            <execution>
+                <id>enhancer</id>
+                <phase>process-classes</phase>
+                <goals>
+                    <goal>enhance</goal>
+                </goals>
+            </execution>
+        </executions>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.openjpa</groupId>
+                <artifactId>openjpa</artifactId>
+                <!-- set the version to be the same as the level in your runtime -->
+                <version>2.2.2</version>
+            </dependency>
+        </dependencies>
+    </plugin>
+
 		</plugins>
+
 		<pluginManagement>
 			<plugins>
 				<!--This plugin's configuration is used to store Eclipse m2e settings
@@ -166,19 +197,34 @@
 										<ignore></ignore>
 									</action>
 								</pluginExecution>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.apache.openjpa
+										</groupId>
+										<artifactId>
+											openjpa-maven-plugin
+										</artifactId>
+										<versionRange>
+											[2.2.2,)
+										</versionRange>
+										<goals>
+											<goal>enhance</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
 							</pluginExecutions>
 						</lifecycleMappingMetadata>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
+
 	</build>
 	<dependencies>
-		<dependency>
-			<groupId>org.apache.openjpa</groupId>
-			<artifactId>openjpa</artifactId>
-			<version>2.3.0</version>
-		</dependency>
 		<dependency>
 			<groupId>org.glassfish.jersey.core</groupId>
 			<artifactId>jersey-server</artifactId>
@@ -219,7 +265,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.4</version>
+			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -256,6 +302,11 @@
 			<artifactId>jbehave-junit-runner</artifactId>
 			<version>1.1.0</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.openjpa</groupId>
+			<artifactId>openjpa</artifactId>
+			<version>2.2.2</version>
 		</dependency>
 	</dependencies>
 </project>

@@ -1,21 +1,24 @@
 package systemaccount.relationcheck;
 
+import javax.ws.rs.core.Response;
+
 import org.apache.openjpa.persistence.EntityExistsException;
 
-import systemaccount.elementList.ElementName;
+import systemaccount.constantitem.ElementName;
+import systemaccount.exception.RelationCheckException;
 import systemaccount.service.UnitInfo;
 
 public class UnitRelationCheck extends BaseRelationCheck {
 
 	@Override
-	public boolean exsistForeignKey(String param) {
+	public void exsistForeignKey(String param) {
 		UnitInfo inhusr = new UnitInfo(ElementName.UnitID);
 		try {
 			inhusr.getUnitByUnitId(param);
 		} catch (EntityExistsException e) {
-			return true;
+			throw new RelationCheckException(e, Response.Status.BAD_REQUEST,
+					"所属がへん");
 		}
-		return false;
 	}
 
 }

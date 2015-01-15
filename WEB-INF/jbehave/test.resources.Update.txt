@@ -1,45 +1,45 @@
 
 (test/resources/Update.story)
-Scenario: 001: ç¤¾å†…ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’æ›´æ–°ã—ã¾ã™
-Given ãƒ¦ãƒ¼ã‚¶ID 1005 ã‚’æ›´æ–°ã—ã¾ã™
-When åå‰ã‚’ ããŠãˆ ã†ãˆãƒ¼ãƒ¼ã‚‹ãˆã†ãŠãˆãˆãˆãˆ ã«å¤‰æ›´ã—ã¾ã™
-Then ä»¥ä¸‹ãŒè¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹ã“ã¨
+Scenario: 001: ŽÐ“àƒAƒJƒEƒ“ƒg‚ðXV‚µ‚Ü‚·
+Given ƒ†[ƒUID 1005 ‚ðXV‚µ‚Ü‚·
+When –¼‘O‚ð ‚­‚¨‚¦ ‚¤‚¦[[‚é‚¦‚¤‚¨‚¦‚¦‚¦‚¦ ‚É•ÏX‚µ‚Ü‚·
+Then ˆÈ‰º‚ª•\Ž¦‚³‚ê‚Ä‚¢‚é‚±‚Æ
 
 |UserID|UserNameFirst|UserNameLast|
-|1005|ããŠãˆ|ã†ãˆãƒ¼ãƒ¼ã‚‹ãˆã†ãŠãˆãˆãˆãˆ|
+|1005|‚­‚¨‚¦|‚¤‚¦[[‚é‚¦‚¤‚¨‚¦‚¦‚¦‚¦|
 
 
-Scenario: 002: éƒ¨ç½²ã‚’æ›´æ–°ã—ã¾ã™
-Given éƒ¨ç½²ID 400 ã‚’æ›´æ–°ã—ã¾ã™
-When éƒ¨ç½²åã‚’ äººäº‹ç·å‹™éƒ¨ ã«å¤‰æ›´ã—ã¾ã™
-Then ä»¥ä¸‹ã®éƒ¨ç½²ãŒè¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹ã“ã¨
+Scenario: 002: •”‚ðXV‚µ‚Ü‚·
+Given •”ID 400 ‚ðXV‚µ‚Ü‚·
+When •”–¼‚ð lŽ–‘–±•” ‚É•ÏX‚µ‚Ü‚·
+Then ˆÈ‰º‚Ì•”‚ª•\Ž¦‚³‚ê‚Ä‚¢‚é‚±‚Æ
 
 |UnitID|UnitName|
-|400|äººäº‹ç·å‹™éƒ¨|
+|400|lŽ–‘–±•”|
 
 
-Scenario: 003: ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’æ›´æ–°ã—ã¾ã™
-Given ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID 1000 ã‚’æ›´æ–°ã—ã¾ã™
-When åå‰ã‚’ ãŠã¡ã‚“ãŽã‚“å…ˆç”Ÿ ã«å¤‰æ›´ã—ã¾ã™
-Then ä»¥ä¸‹ã®ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ãŒè¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹ã“ã¨
+Scenario: 003: ŠÇ—ƒVƒXƒeƒ€‚ðXV‚µ‚Ü‚·
+Given ŠÇ—ƒVƒXƒeƒ€ID 1000 ‚ðXV‚µ‚Ü‚·
+When –¼‘O‚ð ‚¨‚¿‚ñ‚¬‚ñæ¶ ‚É•ÏX‚µ‚Ü‚·
+Then ˆÈ‰º‚ÌŠÇ—ƒVƒXƒeƒ€‚ª•\Ž¦‚³‚ê‚Ä‚¢‚é‚±‚Æ
 
 |ManagementSystemID|ManagementSystemName|
-|1000|ãŠã¡ã‚“ãŽã‚“å…ˆç”Ÿ|
+|1000|‚¨‚¿‚ñ‚¬‚ñæ¶|
 
 
-Scenario: 004: æ¨©é™ã‚’æ›´æ–°ã—ã¾ã™
-Given ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID 2000 101 ã‚’æ›´æ–°ã—ã¾ã™
-When æ¨©é™åã‚’ ç®¡ç†è€… ã«å¤‰æ›´ã—ã¾ã™
-Then ä»¥ä¸‹ã®æ¨©é™ãŒè¡¨ç¤ºã•ã‚Œã¦ã„ã‚‹ã“ã¨
+Scenario: 004: Œ ŒÀ‚ðXV‚µ‚Ü‚·
+Given ŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID 2000 101 ‚ðXV‚µ‚Ü‚·
+When Œ ŒÀ–¼‚ð ŠÇ—ŽÒ ‚É•ÏX‚µ‚Ü‚·
+Then ˆÈ‰º‚ÌŒ ŒÀ‚ª•\Ž¦‚³‚ê‚Ä‚¢‚é‚±‚Æ
 
 |ManagementSystemID|PermissionID|PermissionName|
-|2000|101|ç®¡ç†è€…|
+|2000|101|ŠÇ—ŽÒ|
 
 
-Scenario: 005: ä¿æœ‰æ¨©é™ã‚’æ›´æ–°ã—ã¾ã™
-Given ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆIDã€ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID m-tomoe 2000 101 ã®æ¨©é™ã‚’æ›´æ–°ã—ã¾ã™
-When å¯¾è±¡ã®æ¨©é™ã‚’ 1 ã«å¤‰æ›´ã—ã¾ã™
-Then ä»¥ä¸‹ã®æ¨©é™ãŒä»˜ä¸Žã•ã‚Œã¦ã„ã‚‹ã“ã¨
+Scenario: 005: •Û—LŒ ŒÀ‚ðXV‚µ‚Ü‚·
+Given ƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒgIDAŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID m-tomoe 2000 101 ‚ÌŒ ŒÀ‚ðXV‚µ‚Ü‚·
+When ‘ÎÛ‚ÌŒ ŒÀ‚ð 1 ‚É•ÏX‚µ‚Ü‚·
+Then ˆÈ‰º‚ÌŒ ŒÀ‚ª•t—^‚³‚ê‚Ä‚¢‚é‚±‚Æ
 
 |LoginID|ManagementSystemID|PermissionID|
 |m-tomoe|2000|1|

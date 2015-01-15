@@ -14,7 +14,7 @@ import systemaccount.json.NumericSerializer;
 @Embeddable
 @XmlAccessorType(XmlAccessType.FIELD)
 public class UserpermissionPK implements Serializable {
-
+	private static final long serialVersionUID = 1L;
 	@Column(name = "loginID", length = 20)
 	private String loginID;
 
@@ -52,7 +52,7 @@ public class UserpermissionPK implements Serializable {
 
 	/*
 	 * (非 Javadoc)
-	 * 
+	 *
 	 * @see java.lang.Object#hashCode()
 	 */
 	@Override
@@ -67,7 +67,7 @@ public class UserpermissionPK implements Serializable {
 
 	/*
 	 * (非 Javadoc)
-	 * 
+	 *
 	 * @see java.lang.Object#equals(java.lang.Object)
 	 */
 	@Override

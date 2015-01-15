@@ -1,5 +1,5 @@
 {"xref": {
-  "whenMade": 1408889863571,
+  "whenMade": 1410066437494,
   "createdBy": "JBehave",
   "metaFilter": "",
   "meta": [],
@@ -11,191 +11,191 @@
       "path": "test/resources/Delete.story",
       "html": "test.resources.Delete.html",
       "meta": "",
-      "scenarios": "Scenario:001: ç¤¾å†…ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’å‰Šé™¤ã—ã¾ã™\nGiven ãƒ¦ãƒ¼ã‚¶ã‚’å‰Šé™¤ã—ã¾ã™\nWhen ãƒ¦ãƒ¼ã‚¶ID 1005 ã‚’å‰Šé™¤ã—ã¾ã™\nThen ãƒ¦ãƒ¼ã‚¶ID 1005 ãŒå­˜åœ¨ã—ãªã„ã“ã¨\n\n\nScenario:002: éƒ¨ç½²ã‚’å‰Šé™¤ã—ã¾ã™\nGiven éƒ¨ç½²ã‚’å‰Šé™¤ã—ã¾ã™\nWhen éƒ¨ç½²ID 400 ã‚’å‰Šé™¤ã—ã¾ã™\nThen éƒ¨ç½²ID 400 ãŒå­˜åœ¨ã—ãªã„ã“ã¨\n\n\nScenario:003: ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’å‰Šé™¤ã—ã¾ã™\nGiven ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’å‰Šé™¤ã—ã¾ã™\nWhen ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID 1000 ã‚’å‰Šé™¤ã—ã¾ã™\nThen ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID 1000 ãŒå­˜åœ¨ã—ãªã„ã“ã¨\n\n\nScenario:004: æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™\nGiven æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™\nWhen ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID 2000 101 ã‚’å‰Šé™¤ã—ã¾ã™\nThen ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID 2000 101 ãŒå­˜åœ¨ã—ãªã„ã“ã¨\n\n\nScenario:005: ä¿æœ‰æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™\nGiven ä¿æœ‰æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™\nWhen ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆIDã€ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID m-tomoe 2000 1 ã®æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™\nThen ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆIDã€ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID m-tomoe 2000 1 ãŒå­˜åœ¨ã—ãªã„ã“ã¨\n\n\n",
+      "scenarios": "Scenario:001: Ğ“àƒAƒJƒEƒ“ƒg‚ğíœ‚µ‚Ü‚·\nGiven ƒ†[ƒU‚ğíœ‚µ‚Ü‚·\nWhen ƒ†[ƒUID 1005 ‚ğíœ‚µ‚Ü‚·\nThen ƒ†[ƒUID 1005 ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ\n\n\nScenario:002: •”‚ğíœ‚µ‚Ü‚·\nGiven •”‚ğíœ‚µ‚Ü‚·\nWhen •”ID 400 ‚ğíœ‚µ‚Ü‚·\nThen •”ID 400 ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ\n\n\nScenario:003: ŠÇ—ƒVƒXƒeƒ€‚ğíœ‚µ‚Ü‚·\nGiven ŠÇ—ƒVƒXƒeƒ€‚ğíœ‚µ‚Ü‚·\nWhen ŠÇ—ƒVƒXƒeƒ€ID 1000 ‚ğíœ‚µ‚Ü‚·\nThen ŠÇ—ƒVƒXƒeƒ€ID 1000 ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ\n\n\nScenario:004: Œ ŒÀ‚ğíœ‚µ‚Ü‚·\nGiven Œ ŒÀ‚ğíœ‚µ‚Ü‚·\nWhen ŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID 2000 101 ‚ğíœ‚µ‚Ü‚·\nThen ŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID 2000 101 ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ\n\n\nScenario:005: •Û—LŒ ŒÀ‚ğíœ‚µ‚Ü‚·\nGiven •Û—LŒ ŒÀ‚ğíœ‚µ‚Ü‚·\nWhen ƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒgIDAŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID m-tomoe 2000 1 ‚ÌŒ ŒÀ‚ğíœ‚µ‚Ü‚·\nThen ƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒgIDAŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID m-tomoe 2000 1 ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ\n\n\n",
       "passed": true,
       "pending": false,
-      "started": 1408889849122,
-      "duration": 14116
+      "started": 1410066421349,
+      "duration": 15878
     }
   ],
   "stepMatches": [
     {
       "type": "THEN",
-      "annotatedPattern": "ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID $MngSysID $PermID ãŒå­˜åœ¨ã—ãªã„ã“ã¨",
-      "resolvedPattern": "ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID\\s+(.*)\\s+(.*)\\s+ãŒå­˜åœ¨ã—ãªã„ã“ã¨",
+      "annotatedPattern": "ŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID $MngSysID $PermID ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ",
+      "resolvedPattern": "ŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID\\s+(.*)\\s+(.*)\\s+‚ª‘¶İ‚µ‚È‚¢‚±‚Æ",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "004: æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "Then ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID 2000 101 ãŒå­˜åœ¨ã—ãªã„ã“ã¨"
+          "scenario": "004: Œ ŒÀ‚ğíœ‚µ‚Ü‚·",
+          "step": "Then ŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID 2000 101 ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ"
         }
       ]
     },
     {
       "type": "WHEN",
-      "annotatedPattern": "ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID $ManagementSystemID ã‚’å‰Šé™¤ã—ã¾ã™",
-      "resolvedPattern": "ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID\\s+(.*)\\s+ã‚’å‰Šé™¤ã—ã¾ã™",
+      "annotatedPattern": "ŠÇ—ƒVƒXƒeƒ€ID $ManagementSystemID ‚ğíœ‚µ‚Ü‚·",
+      "resolvedPattern": "ŠÇ—ƒVƒXƒeƒ€ID\\s+(.*)\\s+‚ğíœ‚µ‚Ü‚·",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "003: ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "When ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID 1000 ã‚’å‰Šé™¤ã—ã¾ã™"
+          "scenario": "003: ŠÇ—ƒVƒXƒeƒ€‚ğíœ‚µ‚Ü‚·",
+          "step": "When ŠÇ—ƒVƒXƒeƒ€ID 1000 ‚ğíœ‚µ‚Ü‚·"
         }
       ]
     },
     {
       "type": "THEN",
-      "annotatedPattern": "ãƒ¦ãƒ¼ã‚¶ID $UserID ãŒå­˜åœ¨ã—ãªã„ã“ã¨",
-      "resolvedPattern": "ãƒ¦ãƒ¼ã‚¶ID\\s+(.*)\\s+ãŒå­˜åœ¨ã—ãªã„ã“ã¨",
+      "annotatedPattern": "ƒ†[ƒUID $UserID ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ",
+      "resolvedPattern": "ƒ†[ƒUID\\s+(.*)\\s+‚ª‘¶İ‚µ‚È‚¢‚±‚Æ",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "001: ç¤¾å†…ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "Then ãƒ¦ãƒ¼ã‚¶ID 1005 ãŒå­˜åœ¨ã—ãªã„ã“ã¨"
+          "scenario": "001: Ğ“àƒAƒJƒEƒ“ƒg‚ğíœ‚µ‚Ü‚·",
+          "step": "Then ƒ†[ƒUID 1005 ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ"
         }
       ]
     },
     {
       "type": "GIVEN",
-      "annotatedPattern": "ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’å‰Šé™¤ã—ã¾ã™",
-      "resolvedPattern": "ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’å‰Šé™¤ã—ã¾ã™",
+      "annotatedPattern": "ŠÇ—ƒVƒXƒeƒ€‚ğíœ‚µ‚Ü‚·",
+      "resolvedPattern": "ŠÇ—ƒVƒXƒeƒ€‚ğíœ‚µ‚Ü‚·",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "003: ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "Given ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’å‰Šé™¤ã—ã¾ã™"
+          "scenario": "003: ŠÇ—ƒVƒXƒeƒ€‚ğíœ‚µ‚Ü‚·",
+          "step": "Given ŠÇ—ƒVƒXƒeƒ€‚ğíœ‚µ‚Ü‚·"
         }
       ]
     },
     {
       "type": "GIVEN",
-      "annotatedPattern": "ãƒ¦ãƒ¼ã‚¶ã‚’å‰Šé™¤ã—ã¾ã™",
-      "resolvedPattern": "ãƒ¦ãƒ¼ã‚¶ã‚’å‰Šé™¤ã—ã¾ã™",
+      "annotatedPattern": "ƒ†[ƒU‚ğíœ‚µ‚Ü‚·",
+      "resolvedPattern": "ƒ†[ƒU‚ğíœ‚µ‚Ü‚·",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "001: ç¤¾å†…ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "Given ãƒ¦ãƒ¼ã‚¶ã‚’å‰Šé™¤ã—ã¾ã™"
+          "scenario": "001: Ğ“àƒAƒJƒEƒ“ƒg‚ğíœ‚µ‚Ü‚·",
+          "step": "Given ƒ†[ƒU‚ğíœ‚µ‚Ü‚·"
         }
       ]
     },
     {
       "type": "WHEN",
-      "annotatedPattern": "ãƒ¦ãƒ¼ã‚¶ID $UserID ã‚’å‰Šé™¤ã—ã¾ã™",
-      "resolvedPattern": "ãƒ¦ãƒ¼ã‚¶ID\\s+(.*)\\s+ã‚’å‰Šé™¤ã—ã¾ã™",
+      "annotatedPattern": "ƒ†[ƒUID $UserID ‚ğíœ‚µ‚Ü‚·",
+      "resolvedPattern": "ƒ†[ƒUID\\s+(.*)\\s+‚ğíœ‚µ‚Ü‚·",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "001: ç¤¾å†…ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "When ãƒ¦ãƒ¼ã‚¶ID 1005 ã‚’å‰Šé™¤ã—ã¾ã™"
+          "scenario": "001: Ğ“àƒAƒJƒEƒ“ƒg‚ğíœ‚µ‚Ü‚·",
+          "step": "When ƒ†[ƒUID 1005 ‚ğíœ‚µ‚Ü‚·"
         }
       ]
     },
     {
       "type": "GIVEN",
-      "annotatedPattern": "éƒ¨ç½²ã‚’å‰Šé™¤ã—ã¾ã™",
-      "resolvedPattern": "éƒ¨ç½²ã‚’å‰Šé™¤ã—ã¾ã™",
+      "annotatedPattern": "•”‚ğíœ‚µ‚Ü‚·",
+      "resolvedPattern": "•”‚ğíœ‚µ‚Ü‚·",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "002: éƒ¨ç½²ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "Given éƒ¨ç½²ã‚’å‰Šé™¤ã—ã¾ã™"
+          "scenario": "002: •”‚ğíœ‚µ‚Ü‚·",
+          "step": "Given •”‚ğíœ‚µ‚Ü‚·"
         }
       ]
     },
     {
       "type": "THEN",
-      "annotatedPattern": "ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID $ManagementSystemID ãŒå­˜åœ¨ã—ãªã„ã“ã¨",
-      "resolvedPattern": "ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID\\s+(.*)\\s+ãŒå­˜åœ¨ã—ãªã„ã“ã¨",
+      "annotatedPattern": "ŠÇ—ƒVƒXƒeƒ€ID $ManagementSystemID ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ",
+      "resolvedPattern": "ŠÇ—ƒVƒXƒeƒ€ID\\s+(.*)\\s+‚ª‘¶İ‚µ‚È‚¢‚±‚Æ",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "003: ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "Then ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID 1000 ãŒå­˜åœ¨ã—ãªã„ã“ã¨"
+          "scenario": "003: ŠÇ—ƒVƒXƒeƒ€‚ğíœ‚µ‚Ü‚·",
+          "step": "Then ŠÇ—ƒVƒXƒeƒ€ID 1000 ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ"
         }
       ]
     },
     {
       "type": "WHEN",
-      "annotatedPattern": "ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆIDã€ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID $LoginID $MngSysID $PermID ã®æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
-      "resolvedPattern": "ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆIDã€ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID\\s+(.*)\\s+(.*)\\s+(.*)\\s+ã®æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
+      "annotatedPattern": "ƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒgIDAŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID $LoginID $MngSysID $PermID ‚ÌŒ ŒÀ‚ğíœ‚µ‚Ü‚·",
+      "resolvedPattern": "ƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒgIDAŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID\\s+(.*)\\s+(.*)\\s+(.*)\\s+‚ÌŒ ŒÀ‚ğíœ‚µ‚Ü‚·",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "005: ä¿æœ‰æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "When ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆIDã€ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID m-tomoe 2000 1 ã®æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™"
+          "scenario": "005: •Û—LŒ ŒÀ‚ğíœ‚µ‚Ü‚·",
+          "step": "When ƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒgIDAŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID m-tomoe 2000 1 ‚ÌŒ ŒÀ‚ğíœ‚µ‚Ü‚·"
         }
       ]
     },
     {
       "type": "GIVEN",
-      "annotatedPattern": "ä¿æœ‰æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
-      "resolvedPattern": "ä¿æœ‰æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
+      "annotatedPattern": "•Û—LŒ ŒÀ‚ğíœ‚µ‚Ü‚·",
+      "resolvedPattern": "•Û—LŒ ŒÀ‚ğíœ‚µ‚Ü‚·",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "005: ä¿æœ‰æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "Given ä¿æœ‰æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™"
+          "scenario": "005: •Û—LŒ ŒÀ‚ğíœ‚µ‚Ü‚·",
+          "step": "Given •Û—LŒ ŒÀ‚ğíœ‚µ‚Ü‚·"
         }
       ]
     },
     {
       "type": "WHEN",
-      "annotatedPattern": "éƒ¨ç½²ID $UnitID ã‚’å‰Šé™¤ã—ã¾ã™",
-      "resolvedPattern": "éƒ¨ç½²ID\\s+(.*)\\s+ã‚’å‰Šé™¤ã—ã¾ã™",
+      "annotatedPattern": "•”ID $UnitID ‚ğíœ‚µ‚Ü‚·",
+      "resolvedPattern": "•”ID\\s+(.*)\\s+‚ğíœ‚µ‚Ü‚·",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "002: éƒ¨ç½²ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "When éƒ¨ç½²ID 400 ã‚’å‰Šé™¤ã—ã¾ã™"
+          "scenario": "002: •”‚ğíœ‚µ‚Ü‚·",
+          "step": "When •”ID 400 ‚ğíœ‚µ‚Ü‚·"
         }
       ]
     },
     {
       "type": "THEN",
-      "annotatedPattern": "ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆIDã€ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID $LoginID $MngSysID $PermID ãŒå­˜åœ¨ã—ãªã„ã“ã¨",
-      "resolvedPattern": "ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆIDã€ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID\\s+(.*)\\s+(.*)\\s+(.*)\\s+ãŒå­˜åœ¨ã—ãªã„ã“ã¨",
+      "annotatedPattern": "ƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒgIDAŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID $LoginID $MngSysID $PermID ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ",
+      "resolvedPattern": "ƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒgIDAŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID\\s+(.*)\\s+(.*)\\s+(.*)\\s+‚ª‘¶İ‚µ‚È‚¢‚±‚Æ",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "005: ä¿æœ‰æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "Then ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆIDã€ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID m-tomoe 2000 1 ãŒå­˜åœ¨ã—ãªã„ã“ã¨"
+          "scenario": "005: •Û—LŒ ŒÀ‚ğíœ‚µ‚Ü‚·",
+          "step": "Then ƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒgIDAŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID m-tomoe 2000 1 ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ"
         }
       ]
     },
     {
       "type": "THEN",
-      "annotatedPattern": "éƒ¨ç½²ID $UnitID ãŒå­˜åœ¨ã—ãªã„ã“ã¨",
-      "resolvedPattern": "éƒ¨ç½²ID\\s+(.*)\\s+ãŒå­˜åœ¨ã—ãªã„ã“ã¨",
+      "annotatedPattern": "•”ID $UnitID ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ",
+      "resolvedPattern": "•”ID\\s+(.*)\\s+‚ª‘¶İ‚µ‚È‚¢‚±‚Æ",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "002: éƒ¨ç½²ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "Then éƒ¨ç½²ID 400 ãŒå­˜åœ¨ã—ãªã„ã“ã¨"
+          "scenario": "002: •”‚ğíœ‚µ‚Ü‚·",
+          "step": "Then •”ID 400 ‚ª‘¶İ‚µ‚È‚¢‚±‚Æ"
         }
       ]
     },
     {
       "type": "GIVEN",
-      "annotatedPattern": "æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
-      "resolvedPattern": "æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
+      "annotatedPattern": "Œ ŒÀ‚ğíœ‚µ‚Ü‚·",
+      "resolvedPattern": "Œ ŒÀ‚ğíœ‚µ‚Ü‚·",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "004: æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "Given æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™"
+          "scenario": "004: Œ ŒÀ‚ğíœ‚µ‚Ü‚·",
+          "step": "Given Œ ŒÀ‚ğíœ‚µ‚Ü‚·"
         }
       ]
     },
     {
       "type": "WHEN",
-      "annotatedPattern": "ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID $MngSysID $PermID ã‚’å‰Šé™¤ã—ã¾ã™",
-      "resolvedPattern": "ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID\\s+(.*)\\s+(.*)\\s+ã‚’å‰Šé™¤ã—ã¾ã™",
+      "annotatedPattern": "ŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID $MngSysID $PermID ‚ğíœ‚µ‚Ü‚·",
+      "resolvedPattern": "ŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID\\s+(.*)\\s+(.*)\\s+‚ğíœ‚µ‚Ü‚·",
       "usages": [
         {
           "story": "test/resources/Delete.story",
-          "scenario": "004: æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™",
-          "step": "When ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID 2000 101 ã‚’å‰Šé™¤ã—ã¾ã™"
+          "scenario": "004: Œ ŒÀ‚ğíœ‚µ‚Ü‚·",
+          "step": "When ŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID 2000 101 ‚ğíœ‚µ‚Ü‚·"
         }
       ]
     }

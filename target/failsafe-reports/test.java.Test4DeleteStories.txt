@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: test.java.Test4DeleteStories
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.174 sec - in test.java.Test4DeleteStories

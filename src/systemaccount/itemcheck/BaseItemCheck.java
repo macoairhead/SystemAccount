@@ -1,21 +1,23 @@
 package systemaccount.itemcheck;
 
+import javax.ws.rs.core.Response;
+
+import systemaccount.exception.ItemCheckException;
+
 public class BaseItemCheck {
 
 	protected int len;
 
-	public boolean isEmpty(String param) {
+	public void isEmpty(String param) {
 		if (param.equals(null) || param.isEmpty()) {
-			return true;
+			throw new ItemCheckException(Response.Status.BAD_REQUEST, "からっぽ");
 		}
-		return false;
 	}
 
-	public boolean maxLen(String param) {
+	public void maxLen(String param) {
 		if (param.length() > len) {
-			return true;
+			throw new ItemCheckException(Response.Status.BAD_REQUEST, "桁が違う");
 		}
-		return false;
 	}
 
 }

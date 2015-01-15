@@ -1,25 +1,23 @@
 package systemaccount.service;
 
-import java.util.Date;
 import java.util.LinkedHashMap;
 
-import systemaccount.elementList.ElementName;
+import systemaccount.constantitem.ElementName;
 import systemaccount.model.Unit;
 
 public class UpdateUnit extends BaseService {
 
-	public UpdateUnit(String key) {
+	public UpdateUnit(ElementName key) {
 		super(key);
 	}
 
-	public void updateUnit(LinkedHashMap<String, String> k,
-			LinkedHashMap<String, String> input) {
+	public void updateUnit(LinkedHashMap<ElementName, String> k,
+			LinkedHashMap<ElementName, String> input) {
 		et.begin();
 		Unit record = em.find(Unit.class, k.get(this.key));
 		if (input.containsKey(this.key)) {
 			record.setUnitID(Integer.parseInt(input.get(this.key)));
 		}
-		record.setUpdateDate(new Date());
 		if (input.containsKey(ElementName.UnitName)) {
 			record.setUnitName(input.get(ElementName.UnitName));
 		}
