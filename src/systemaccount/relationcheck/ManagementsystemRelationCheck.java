@@ -1,22 +1,25 @@
 package systemaccount.relationcheck;
 
+import javax.ws.rs.core.Response;
+
 import org.apache.openjpa.persistence.EntityExistsException;
 
-import systemaccount.elementList.ElementName;
+import systemaccount.constantitem.ElementName;
+import systemaccount.exception.RelationCheckException;
 import systemaccount.service.ManagementsystemInfo;
 
 public class ManagementsystemRelationCheck extends BaseRelationCheck {
 
 	@Override
-	public boolean exsistForeignKey(String param) {
+	public void exsistForeignKey(String param) {
 		ManagementsystemInfo inhusr = new ManagementsystemInfo(
 				ElementName.MngSystemID);
 		try {
 			inhusr.getManagementSystemInfoByManagementsystemId(param);
 		} catch (EntityExistsException e) {
-			return true;
+			throw new RelationCheckException(e, Response.Status.BAD_REQUEST,
+					"対象システムがへん");
 		}
-		return false;
 	}
 
 }

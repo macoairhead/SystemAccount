@@ -2,11 +2,13 @@ package systemaccount.service;
 
 import java.util.List;
 
+import systemaccount.constantitem.ElementName;
 import systemaccount.model.Unit;
+import systemaccount.model.Unitchangelog;
 
 public class UnitInfo extends BaseService {
 
-	public UnitInfo(String key) {
+	public UnitInfo(ElementName key) {
 		super(key);
 	}
 
@@ -15,6 +17,9 @@ public class UnitInfo extends BaseService {
 	}
 
 	public List<Unit> getUnitInfoList() {
-		return em.createQuery("select i from Unit i").getResultList();
+		return em.createQuery("Unit.findAll").getResultList();
+	}
+	public List<Unitchangelog> getUnitInfoChangeList() {
+		return em.createQuery("Unitchangelog.findAll").getResultList();
 	}
 }

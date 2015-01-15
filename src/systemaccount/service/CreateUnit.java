@@ -1,24 +1,21 @@
 package systemaccount.service;
 
-import java.util.Date;
 import java.util.LinkedHashMap;
 
-import systemaccount.elementList.ElementName;
+import systemaccount.constantitem.ElementName;
 import systemaccount.model.Unit;
 
 public class CreateUnit extends BaseService {
 
-	public CreateUnit(String key) {
+	public CreateUnit(ElementName key) {
 		super(key);
 	}
 
-	public void createUnit(LinkedHashMap<String, String> input) {
+	public void createUnit(LinkedHashMap<ElementName, String> input) {
 
 		et.begin();
 		Unit record = new Unit();
-		record.setUnitID(Integer.parseInt(input.get(ElementName.UnitID)));
-		record.setInputDate(new Date());
-		record.setUpdateDate(new Date());
+		record.setUnitID(Integer.parseInt(input.get(this.key)));
 		record.setUnitName(input.get(ElementName.UnitName));
 		em.persist(record);
 		et.commit();

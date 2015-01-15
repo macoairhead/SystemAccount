@@ -1,10 +1,11 @@
 package systemaccount.service;
 
+import systemaccount.constantitem.ElementName;
 import systemaccount.model.Managementsystem;
 
 public class DeleteManagementsystem extends BaseService {
 
-	public DeleteManagementsystem(String key) {
+	public DeleteManagementsystem(ElementName key) {
 		super(key);
 	}
 

@@ -1,10 +1,11 @@
 package systemaccount.service;
 
+import systemaccount.constantitem.ElementName;
 import systemaccount.model.Unit;
 
 public class DeleteUnit extends BaseService {
 
-	public DeleteUnit(String key) {
+	public DeleteUnit(ElementName key) {
 		super(key);
 	}
 

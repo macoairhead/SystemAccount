@@ -3,17 +3,18 @@ package systemaccount.service;
 import java.util.LinkedHashMap;
 import java.util.List;
 
+import systemaccount.constantitem.ElementName;
 import systemaccount.model.Userpermission;
 import systemaccount.model.UserpermissionPK;
 
 public class UserpermissionInfo extends BaseService {
 
-	public UserpermissionInfo(List<String> k) {
+	public UserpermissionInfo(List<ElementName> k) {
 		super(k);
 	}
 
 	public Userpermission getUserpermissionByPK(
-			LinkedHashMap<String, String> keys) {
+			LinkedHashMap<ElementName, String> keys) {
 		UserpermissionPK pk = new UserpermissionPK();
 		pk.setLoginID(keys.get(this.keyLst.get(0)));
 		pk.setManagementSystemID(Integer.parseInt(keys.get(this.keyLst.get(1))));
@@ -22,28 +23,28 @@ public class UserpermissionInfo extends BaseService {
 	}
 
 	public List<Userpermission> getUserpermissionInfoList() {
-		return em.createQuery("select i from Userpermission i").getResultList();
+		return em.createQuery("Userpermission.findAll").getResultList();
 	}
 
 	public List<Userpermission> getUserpermissionInfoListByMngSysID(
 			String mngSysId) {
 		return em.createQuery(
-				"select i from Userpermission i where i.managementsystem.ManagementSystemID = "
+				"select u from Userpermission u where u.managementsystem.ManagementSystemID = "
 						+ mngSysId).getResultList();
 	}
 
 	public List<Userpermission> getUserpermissionInfoListByPermID(String permId) {
 		return em.createQuery(
-				"select i from Userpermission i where i.permission.PermissionID = "
+				"select u from Userpermission u where u.permission.PermissionID = "
 						+ permId).getResultList();
 	}
 
-	public List<Userpermission> getUserpermissionInfoListBySysUsrID(
-			String sysUsrId) {
+	public List<Userpermission> getUserpermissionInfoListByLoginID(
+			String loginId) {
 		return em
 				.createQuery(
-						"select i from userpermission i where i.systemuserbind.ManagementSystemUserID = "
-								+ sysUsrId).getResultList();
+						"select u from userpermission u where u.loginID = "
+								+ loginId).getResultList();
 	}
 
 }

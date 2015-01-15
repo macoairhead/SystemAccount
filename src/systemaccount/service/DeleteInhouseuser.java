@@ -1,10 +1,11 @@
 package systemaccount.service;
 
+import systemaccount.constantitem.ElementName;
 import systemaccount.model.Inhouseuser;
 
 public class DeleteInhouseuser extends BaseService {
 
-	public DeleteInhouseuser(String key) {
+	public DeleteInhouseuser(ElementName key) {
 		super(key);
 	}
 

@@ -18,7 +18,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
-import systemaccount.elementList.ElementName;
+import systemaccount.constantitem.ElementName;
 import systemaccount.exception.ItemCheckException;
 import systemaccount.exception.RelationCheckException;
 import systemaccount.itemcheck.ManagementsystemItemCheck;

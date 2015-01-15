@@ -1,28 +1,28 @@
 
 (test/resources/Delete.story)
-Scenario: 001: ç¤¾å†…ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’å‰Šé™¤ã—ã¾ã™
-Given ãƒ¦ãƒ¼ã‚¶ã‚’å‰Šé™¤ã—ã¾ã™
-When ãƒ¦ãƒ¼ã‚¶ID 1005 ã‚’å‰Šé™¤ã—ã¾ã™
-Then ãƒ¦ãƒ¼ã‚¶ID 1005 ãŒå­˜åœ¨ã—ãªã„ã“ã¨
+Scenario: 001: ŽÐ“àƒAƒJƒEƒ“ƒg‚ðíœ‚µ‚Ü‚·
+Given ƒ†[ƒU‚ðíœ‚µ‚Ü‚·
+When ƒ†[ƒUID 1005 ‚ðíœ‚µ‚Ü‚·
+Then ƒ†[ƒUID 1005 ‚ª‘¶Ý‚µ‚È‚¢‚±‚Æ
 
-Scenario: 002: éƒ¨ç½²ã‚’å‰Šé™¤ã—ã¾ã™
-Given éƒ¨ç½²ã‚’å‰Šé™¤ã—ã¾ã™
-When éƒ¨ç½²ID 400 ã‚’å‰Šé™¤ã—ã¾ã™
-Then éƒ¨ç½²ID 400 ãŒå­˜åœ¨ã—ãªã„ã“ã¨
+Scenario: 002: •”‚ðíœ‚µ‚Ü‚·
+Given •”‚ðíœ‚µ‚Ü‚·
+When •”ID 400 ‚ðíœ‚µ‚Ü‚·
+Then •”ID 400 ‚ª‘¶Ý‚µ‚È‚¢‚±‚Æ
 
-Scenario: 003: ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’å‰Šé™¤ã—ã¾ã™
-Given ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ã‚’å‰Šé™¤ã—ã¾ã™
-When ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID 1000 ã‚’å‰Šé™¤ã—ã¾ã™
-Then ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ ID 1000 ãŒå­˜åœ¨ã—ãªã„ã“ã¨
+Scenario: 003: ŠÇ—ƒVƒXƒeƒ€‚ðíœ‚µ‚Ü‚·
+Given ŠÇ—ƒVƒXƒeƒ€‚ðíœ‚µ‚Ü‚·
+When ŠÇ—ƒVƒXƒeƒ€ID 1000 ‚ðíœ‚µ‚Ü‚·
+Then ŠÇ—ƒVƒXƒeƒ€ID 1000 ‚ª‘¶Ý‚µ‚È‚¢‚±‚Æ
 
-Scenario: 004: æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™
-Given æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™
-When ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID 2000 101 ã‚’å‰Šé™¤ã—ã¾ã™
-Then ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID 2000 101 ãŒå­˜åœ¨ã—ãªã„ã“ã¨
+Scenario: 004: Œ ŒÀ‚ðíœ‚µ‚Ü‚·
+Given Œ ŒÀ‚ðíœ‚µ‚Ü‚·
+When ŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID 2000 101 ‚ðíœ‚µ‚Ü‚·
+Then ŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID 2000 101 ‚ª‘¶Ý‚µ‚È‚¢‚±‚Æ
 
-Scenario: 005: ä¿æœ‰æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™
-Given ä¿æœ‰æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™
-When ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆIDã€ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID m-tomoe 2000 1 ã®æ¨©é™ã‚’å‰Šé™¤ã—ã¾ã™
-Then ã‚·ã‚¹ãƒ†ãƒ ã‚¢ã‚«ã‚¦ãƒ³ãƒˆIDã€ç®¡ç†ã‚·ã‚¹ãƒ†ãƒ IDã€æ¨©é™ID m-tomoe 2000 1 ãŒå­˜åœ¨ã—ãªã„ã“ã¨
+Scenario: 005: •Û—LŒ ŒÀ‚ðíœ‚µ‚Ü‚·
+Given •Û—LŒ ŒÀ‚ðíœ‚µ‚Ü‚·
+When ƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒgIDAŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID m-tomoe 2000 1 ‚ÌŒ ŒÀ‚ðíœ‚µ‚Ü‚·
+Then ƒVƒXƒeƒ€ƒAƒJƒEƒ“ƒgIDAŠÇ—ƒVƒXƒeƒ€IDAŒ ŒÀID m-tomoe 2000 1 ‚ª‘¶Ý‚µ‚È‚¢‚±‚Æ
 
 
