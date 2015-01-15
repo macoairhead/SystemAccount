@@ -1,9 +1,9 @@
-test\java\S3UpdateStories.class
-test\java\InfoSteps.class
-test\java\S2InfoStories.class
-test\java\UpdateSteps.class
-test\java\S4DeleteStories.class
-test\java\DeleteSteps.class
+test\java\Test1CreateStories.class
+test\java\Test4DeleteStories.class
+test\java\Test3UpdateStories.class
+test\java\TestDeleteSteps.class
+test\java\TestInfoSteps.class
+test\java\TestCreateSteps.class
 test\java\InhouseuserTest.class
-test\java\CreateSteps.class
-test\java\S1CreateStories.class
+test\java\Test2InfoStories.class
+test\java\TestUpdateSteps.class
